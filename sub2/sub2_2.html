@@ -1,0 +1,107 @@
+<? 
+session_start();
+@extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월미테마파크-오시는길</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_2content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7f8fbdeb852e5a0b090f441588621259"></script>
+    <script src="./js/map.js"></script>
+
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    
+
+    <div class="wrap">
+      <!-- 서브헤더영역 -->
+      <? include "../common/sub_head.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+        </div>
+        
+        <div class="sub_menu">
+            <h3>이용안내</h3>
+            <div class="backbox"></div>
+            <ul>
+                <li><a href="./sub2_1.html">이용요금및시간</a></li>
+                <li class="current"><a href="./sub2_2.html">오시는길</a></li>
+                <li><a href="./sub2_3.html">혜택안내</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <span class="hidden">HOME</span><i class="fas fa-home"></i> &gt; 이용안내 &gt; <strong>오시는길</strong>
+                </div>
+                <h2>오시는길</h2>
+            </div>
+            <div class="content_area">
+               
+                <div id="map"></div>
+                <div class="map_conbox">
+                    <div class="linebox">
+                        <h3>대중교통 이용시</h3>
+                        <div class="map_con1">
+                                <img src="./images/content2/subway.png" alt="">
+                                <p>전철 1호선 인천역 하차 &gt; 인천역 앞 버스정류장 75번(월미도행) 탑승<br>&gt; 해사고등학교 지나 월미테마파크 정류장 하차</p>
+                        </div>
+                    </div>
+                    <div class="linebox">
+                        <h3>자가용 이용시</h3>
+                        <div class="map_con2">
+                            <img src="./images/content2/car.png" alt="">
+                            <div class="co2_box">
+                                <dl>
+                                    <dt>제2경인고속도로 이용 시</dt>
+                                    <dd>제2경인고속도로 고속종점하차도 진입 &gt; 능안삼거리에서 월미도, 중구청 방면 좌회전<br>&gt; 우회고사거리 월미도 방면으로 좌회전 &gt; 월미공원 삼거리에서 좌회전 &gt; 한국이민사박물관<br>&gt; 월미테마파크</dd>
+                                </dl>
+                                <dl class="last">
+                                    <dt>경인고속도로 이용 시</dt>
+                                    <dd>서인천IC &gt; 석남고가교 사거리 지나 동인천역, 동구청 방면 좌회전<br>&gt; 북항사거리에서 송도, 월미도 방면 좌회전 만석고가교 진입 후 월미도, 인천역 방면 우회전<br>&gt; 월미공원 삼거리 좌회전 &gt; 한국이민사박물관 &gt; 월미테마파크</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="linebox">
+                        <h3>월미테마파크 주차안내</h3>
+                        <div class="map_con3">
+                            <img src="./images/content2/parking.png" alt="">
+                            <ul>
+                                <li>해사고등학교 지나 이민박물관</li>
+                                <li>대형무료주차장(월미공원 박물관 주차장) 이용 (무료주차)</li>
+                                <li>월미테마파크 앞 도로라인 이용 (무료주차)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+
+        <!-- 서브푸터영역 -->
+        <? include "../common/sub_foot.html" ?>
+    </div>
+
+    <!-- JQuery -->
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/fullnav.js"></script>
+
+</body>
+</html>

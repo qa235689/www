@@ -1,0 +1,41 @@
+
+
+p,.list_search ul li.last input,.scale_list select,.list_tit,.page_button li a{font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
+form{padding: 50px 0 10px; border-radius: 10px; background: #efefef; margin-bottom: 50px;}
+.list_search{width: 1200px;}
+.list_search ul{overflow: hidden; text-align: center; width: 775px; margin: 0 auto;}
+.list_search ul li{float: left; margin-right: 50px;}
+.list_search ul li input{}
+.list_search ul li:nth-of-type(2) input{width: 500px; height: 30px; border: 1px solid #ccc; border-radius: 5px; outline: none;}
+.list_search ul li.last input{background:#09c; color: #fff; border-radius: 5px; border: none; padding: 5px 15px; 
+     font-size: 1.2em;}
+.list_search ul li.last{margin-right: 0;}
+.list_search ul li select{width: 100px; height: 36px; outline: none; font-size: 1.2em; border: 1px solid #999; border-radius: 5px; padding-left: 20px;}
+.list_search p{font-size: 1.3em; text-align: center; padding: 20px 0 50px;}
+
+.scale_list select{outline: none; font-size: 1em; text-align: center; padding: 0 10px; background: none; border: 1px solid #999; border-radius: 5px; margin-bottom: 20px;}
+
+.list_tit,.list_item{overflow: hidden; width: 1200px; }
+.list_tit li,.list_item li{float: left; padding: 15px 0; text-align: center;background: none; color: #333; font-size: 1.2em;}
+.list_tit{border-top: 5px solid #09c; border-bottom: 1px solid #09c;}
+.list_item{border-bottom: 1px solid #ccc;}
+
+.list_item li{padding: 15px 0; background: none; color: #333; border-top: none; font-size: 1em;}
+.list_tit li:nth-of-type(1),.list_item li:nth-of-type(1){width: 70px;}
+.list_tit li:nth-of-type(2),.list_item li:nth-of-type(2){width: 890px;}
+.list_item li:nth-of-type(2){padding: 0;}
+.list_item li:nth-of-type(2) a{display: block; padding: 15px 0; font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
+.list_tit li:nth-of-type(3),.list_tit li:nth-of-type(4),.list_tit li:nth-of-type(5),
+.list_item li:nth-of-type(3),.list_item li:nth-of-type(4),.list_item li:nth-of-type(5){width: 80px;}
+
+.page_button{margin: 25px 0 150px; width: 1200px; overflow: hidden;}
+.page_button p{text-align: center; margin-left: 421px; float: left; padding: 10px 0;}
+.page_button ul{float: right;}
+.page_button li{float: right; margin-left: 20px;}
+.page_button li:nth-of-type(2){margin-left: 0;}
+.page_button li a{display: block; padding: 10px 0; width: 80px; background: #09c; color: #fff;; border-radius: 5px; 
+    text-align: center; font-size: 1em}
+.page_button li.btn_list a{background: #666;}
+
+
+

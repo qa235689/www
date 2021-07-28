@@ -1,0 +1,17 @@
+/* ::marker{display: none;} */
+input,textarea{outline: none;}
+
+.write_top{overflow: hidden; background: #efefef; padding: 20px; border-top: 3px solid #333; border-bottom: 1px solid #333;}
+.write_top li{float: left; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center;}
+
+.write_top li:nth-child(2){margin: 0 20px;}
+.write_top li:nth-child(3){margin-right: 20px;}
+.write_tit{margin: 15px 0;}
+.write_tit input,.write_intext textarea{width: 1170px; margin-left: 15px; border: 1px solid #ccc; border-radius: 5px; font-size: 1em; padding: 10px; box-sizing: border-box;}
+.write_intext{padding-bottom: 15px; border-bottom: 1px solid #ccc;}
+
+.write_button{overflow: hidden; margin: 20px 0 150px;}
+.write_button li{float: left;}
+.write_button li input,.write_button li a{ text-align: center; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1em; border-radius: 5px;}
+.write_button li input{background: #09c; border: none; color: #fff; width: 100px; padding: 15px 0; margin-right: 20px; cursor: pointer;}
+.write_button li a{display: block; background: #666; color: #fff; width: 100px; padding: 15px 0;}

@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;
+  color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+  /* 헤드라인 폰트 연결 */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+ /* font-family: 'Nanum Gothic', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+ /* font-family: 'Nanum Myeongjo', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+ /* font-family: 'Roboto', sans-serif; */
+
+/* 스킵네비게이션 */
+#skipNav{position:relative;width:100%;overflow:hidden; z-index: 60;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+   overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+  height:auto;padding:10px 0; background: #f2f2f2;}
+
+/* 헤더공통영역 */
+
+.wrap{width: 100%; overflow: hidden;}
+
+#headerArea{overflow: hidden; border-top: 20px solid #0099cc; position: fixed; width: 100%; height: 186px; background: #fff; 
+    z-index: 50; border-bottom: 1px solid #ccc; box-shadow: 0 0 10px #999;}
+#headerArea .header_inner{width: 1200px; margin: 0 auto;}
+#headerArea .top_menu ul, #gub{font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
+#headerArea .header_top{overflow: hidden; position: relative;}
+
+#headerArea .search{width: 267px; float: left; border: 1px solid #0099cc; margin: 18px 53px 0 45px;}
+#headerArea .search #search_text02{width: 210px; height: 28px; margin-top: 3px; border: 0; outline: 0; font-size: 1em; color: #333; font-weight: 700;}
+#headerArea .search .search_btn{width: 28px; height: 28px; margin: 4px; background: url(../images/serch.png); text-indent: -999px; overflow: hidden; border: 0; float: left;}
+
+#headerArea .logo{float: left; position: absolute; width: 127px; height: 75px;
+                  left: 50%; margin-left: -64px; top: 50%; margin-top: -37px;}
+#headerArea .logo a{display: block; width: 127px; height: 75px; background: url(../images/toplogo.jpg); text-indent: -999px; overflow: hidden;}
+#headerArea .logo a span{margin-left: 40px;}
+#headerArea .top_menu{float: right;  margin: 15px 45px 68px;}
+#headerArea .top_menu ul{overflow: hidden;}
+#headerArea .top_menu li{float: left; margin-right: 25px;}
+#headerArea .top_menu .last{margin-right: 0;}
+#headerArea .top_menu .last::after{content: ''; display: none}
+#headerArea .top_menu li::after{content: ''; display: block; width: 1px; height: 14px; background: #ccc;
+              position: absolute; right: 122px; top: 20px;}
+
+/* gnb영역 */
+#gub{width: 1110px; border: 1px solid red;}
+
+#gnb .dropdownmenu{float:left;}
+#gnb .dropdownmenu .menu{position:relative; float:left; width:16.66%; height: 186px;}
+#gnb .dropdownmenu li h3{}
+#gnb .dropdownmenu li .depth1{display:block; width:200px; padding: 30px 0; font-size: 1.5em; font-family: 'Nanum Gothic', sans-serif; text-align: center; transition: all .5s;}
+
+	
+/* 2depth */
+#gnb ul.dropdownmenu li ul{width:200px; height:120px; position:absolute; top:72px; left:0; padding:15px 0;
+		         line-height:2em; display: none;} 
+
+#gnb ul.dropdownmenu li ul li{ text-align:center; font-weight:bold;}
+#gnb ul.dropdownmenu li ul li a{display: block; color:#666; transition: all .5s; }
+#gnb ul.dropdownmenu li ul li a:hover{color:#333;}
+
+/* #headerArea #gub ul{overflow: hidden;}
+#headerArea #gub li{float: left; margin-right: 111px;}
+#headerArea #gub .last{margin-right: 0;} */
+
+/* 푸터공통영역 */
+#footerArea{height: 300px; background: #efefef; position: relative;}
+#footerArea::after{content: ''; display: block; width: 100%; height: 1px; background: #ccc; position: absolute; left: 0; top: 100px;}
+#footerArea .footer_inner{width: 1200px; margin: 0 auto;}
+#footerArea .footer_top{width:1200px; float: left;}
+
+#footerArea .footer_menu{width: 1005px; height: 100px; float: left;}
+#footerArea .footer_menu ul{overflow: hidden; margin: 50px 42px 380px 186px;}
+#footerArea .footer_menu li{float: left; font-size: 1.125em; margin-right: 50px;}
+#footerArea .footer_menu .last{margin-right: 0;}
+
+#footerArea .footer_family{float: right;width:163px; background:#fff; border:1px solid #ccc; position:relative; margin-top:36px; z-index: 10;}
+.footer_family .arrow{display:block; padding:3px 0 3px 20px; font-family: 'Roboto', sans-serif; color: #666; position: relative;}
+.footer_family .arrow:hover{color:#333}
+.footer_family .arrow span{position: absolute; right: 10px; top: 3px;}
+.footer_family .aList{position:absolute; top:25px; left:-1px; width:163px; border:1px solid #ccc; display:none}
+.footer_family .aList li{line-height:1.5em; background:#fff; border-bottom:1px solid #ccc; }
+.footer_family .aList li:nth-of-type(2){border-bottom:0;}
+.footer_family .aList li a{display:block;padding-left:20px; color: #666;}
+.footer_family .aList li a:hover{ background:#F0F0F0; color:#333}
+
+#footerArea .footer_bottom{width: 1200px; overflow: hidden;}
+#footerArea .footer_logo{width: 126px; height: 75px; float: left; margin: 30px 0 30px 30px;}
+#footerArea .footer_addcopy{ float: left; margin: 30px 0 82px 30px; color: #666;}
+#footerArea address{font-size: 1.125em; line-height: 1.8em;}
+#footerArea p{text-transform: uppercase; margin-top: 15px;}
+
+#footerArea .footer_sns{float: right; margin: 30px 0 70px;}
+#footerArea .footer_sns ul{overflow: hidden;}
+#footerArea .footer_sns li{float: left; margin-right: 10px;}
+#footerArea .footer_sns li .last{margin-right: 0;}
+#footerArea .footer_sns li a{font-size: 1.875em;}
+#footerArea .footer_sns .fa-facebook{color: #3b5998;}
+#footerArea .footer_sns .fa-twitter{color: #03a9f4;}
+#footerArea .footer_sns .fa-youtube{color: #ff0000;}
+
+
+/* 상단이동 버튼 */
+.topMove{display:block; width: 50px; color: #fff; background: #09c; border-radius: 25px; padding: 15px 0;
+position: fixed; left:50%; margin-left: 650px; bottom:350px; text-align: center; text-transform: uppercase; font-family: 'Roboto', sans-serif;}
+
+
+
+
+
+

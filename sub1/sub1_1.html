@@ -1,0 +1,88 @@
+<? 
+session_start();
+@extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월미테마파크-테마파크소개</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_1content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="wrap">
+        <!-- 서브헤더영역 -->
+        <? include "../common/sub_head.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+        </div>
+        
+        <div class="sub_menu">
+            <h3>테마파크</h3>
+            <div class="backbox"></div>
+            <ul>
+                <li class="current"><a href="./sub1_1.html">테마파크소개</a></li>
+                <li><a href="./sub1_2.html">색다른특별함</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <span class="hidden">HOME</span><i class="fas fa-home"></i> &gt; 테마파크 &gt; <strong>테마파크소개</strong>
+                </div>
+                <h2>테마파크소개</h2>
+            </div>
+            <div class="content_area">
+                <p>"월미테마파크는 항상 고객들에게 늘 새롭고<br>즐거움이 가득한 테마파크로 기억남기 위해 노력하고 있습니다."</p>
+                <ul>
+                    <li>
+                        <img src="./images/content1/sub1_1_03.jpg" alt="">
+                        <dl>
+                            <dt>1년 365일 즐거움이 있는곳!</dt>
+                            <dd>자연풍광이 뛰어난 월미도에서 1992년 개장 이래<br>많은 사랑을 받아오던 마이랜드를 시작으로,<br>2009년 월미테마파크 라는 4,000평 대규모 시설로 재 탄생 하였습니다.</dd>
+                            <dd>월미테마파크는 스릴만점 지상 70m높이 하이퍼드롭부터<br>월미도 관광객은 한번쯤 타봤다는 월미도의 마스코트 타가다 디스코,<br>극강스릴! 세계 최초 2층바이킹, 인천 앞바다가 보이는 115m 대관람차 등<br>메이저급 어트랙션이 완비되어 있어<br>&lt;자이언트 펭&gt;, &lt;뮤직비디오 비-깡&gt;, &lt;sbs 런닝맨&gt; 등의 다양한 방송 출연지로<br>전국적인 유명세를 떨치고 있습니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>월미도의 새로운 초대형 놀이교육 테마파크</dt>
+                            <dd>2,500평 규모 실내 놀이교육체혐관 차피패밀리파크 와 물공놀이,<br>미니 후룸라이드, 물놀이보프 등 시원한 물놀이존,<br>30여가지 어린이 놀이시설, vr가상체험존까지<br>온가족이 즐거운 복합 테마파크입니다.</dd>
+                        </dl>
+                        <img src="./images/content1/sub1_1_07.jpg" alt="">
+                    </li>
+                    <li class="last">
+                        <img src="./images/content1/sub1_1_10.jpg" alt="">
+                        <dl>
+                            <dt>자연이 함께하는 즐거움</dt>
+                            <dd>인천 앞바다와 그 주위의 섬, 황금빛 노을이 몰아치는 월미테마파크는<br>자연의 풍경도 함께 즐기며, 평소에 쉽게 접하지 못하는 자연을<br>온몸으로 느끼고, 만끽할 수 있습니다.<br>자연풍광이 뛰어난 월미도와 스릴넘치는 놀이기구가 함께합니다.</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+       <!-- 서브푸터영역 -->
+       <? include "../common/sub_foot.html" ?>
+    </div>
+
+          <!-- JQuery -->
+          <script src="../common/js/jquery-1.12.4.min.js"></script>
+          <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+          <script src="../common/js/fullnav.js"></script>
+
+</body>
+</html>

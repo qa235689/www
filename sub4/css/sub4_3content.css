@@ -1,0 +1,15 @@
+/* 테마파크소개 내용 영역 */
+
+
+
+#content .content_area{}
+
+#content .content_area ul{margin-left: 50px; position: relative;}
+#content .content_area ul::after{content: ''; display: block; width: 1000px; border: 1px solid #ccc; position: absolute; left: 50px; top: 320px;}
+#content .content_area li {overflow: hidden; margin-bottom: 200px;}
+#content .content_area li img{width: 400px; float: left; border-top-right-radius: 50px; border-bottom-left-radius: 50px; margin-right: 50px;} 
+
+#content .content_area li h3{margin: 20px 50px 0; font-family: 'Nanum Gothic', sans-serif; font-weight: 700;  font-size: 2.6em;}
+#content .content_area li p{font-size: 1.25em; margin-top: 20px;}
+#content .content_area li a{display: block; font-weight: 700; margin-top: 80px;}
+#content .content_area li a:hover{color: #f93;}

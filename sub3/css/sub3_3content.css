@@ -1,0 +1,97 @@
+/* 테마파크소개 내용 영역 */
+
+
+
+#content .content_area{}
+#content .content_area ul{margin-top: 100px;}
+#content .content_area li{position: relative; overflow: hidden; padding-bottom: 400px;}
+
+#content .content_area dl::after{content: ''; width: 1150px; height: 600px; border: 1px solid #ccc; border-radius: 20px; position: absolute; left: 25px; top: 550px; z-index: -20;}
+#content .content_area li:nth-child(1) dl::after{content: ''; top: 580px;}
+#content .content_area li:nth-child(2) dl::after{content: ''; height: 250px;}
+#content .content_area li:nth-child(3) dl::after{content: ''; height: 510px;}
+#content .content_area li:nth-child(4) dl::after{content: ''; height: 360px;}
+#content .content_area li:nth-child(5) dl::after{content: ''; height: 380px; top: 500px;}
+#content .content_area li:nth-child(6) dl::after{content: ''; height: 480px;}
+#content .content_area li:nth-child(7) dl::after{content: ''; height: 410px;}
+#content .content_area li:nth-child(8) dl::after{content: ''; height: 420px; top: 500px;}
+#content .content_area li:nth-child(9) dl::after{content: ''; height: 420px; top: 570px;}
+#content .content_area li:nth-child(10) dl::after{content: ''; height: 430px;}
+#content .content_area li:nth-child(11) dl::after{content: ''; height: 380px; top: 500px;}
+#content .content_area li:nth-child(12) dl::after{content: ''; height: 420px; top: 530px;}
+#content .content_area li:nth-child(13) dl::after{content: ''; height: 460px; top: 530px;}
+#content .content_area li:nth-child(14) dl::after{content: ''; height: 350px; top: 450px;}
+#content .content_area li:nth-child(15) dl::after{content: ''; height: 420px; top: 530px;}
+
+#content .content_area dt{font-family: 'Nanum Gothic', sans-serif; font-size: 1.5em; text-align: right; 
+    padding-bottom:170px;  margin-bottom: 70px; font-weight: 700;}
+
+#content .content_area dt span{font-size: 1.75em; color: #09c;}
+
+#content .content_area dd{font-size: 1.25em; margin-left: 50px; line-height: 1.8em;}
+#content .content_area dd span{font-weight: bold;}
+#content .content_area li dd{margin-bottom: 40px;}
+#content .content_area li .ddtext{margin-bottom: 100px;}
+
+#content .content_area li:nth-child(1) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(1) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(1) dd:nth-child(6){margin-left: 70px;}
+#content .content_area li:nth-child(1) dd:nth-child(7){margin-left: 70px;}
+#content .content_area li:nth-child(1) dd:nth-child(8){margin-left: 70px;}
+#content .content_area li:nth-child(2) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(3) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(3) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(4) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(4) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(5) dd:nth-child(3){margin-left: 70px;}
+#content .content_area li:nth-child(5) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(6) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(6) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(7) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(7) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(8) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(8) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(9) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(9) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(10) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(10) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(11) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(11) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(12) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(12) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(13) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(13) dd:nth-child(5){margin-left: 70px;}
+#content .content_area li:nth-child(14) dd:nth-child(3){margin-left: 70px;}
+#content .content_area li:nth-child(15) dd:nth-child(4){margin-left: 70px;}
+#content .content_area li:nth-child(15) dd:nth-child(5){margin-left: 70px;}
+
+
+
+
+
+#content .content_area li a{font-size: 1.25em; margin-left: 50px; font-weight: bold; margin-left: 70px;}
+#content .content_area li a:hover{color: #f93;}
+#content .content_area li div{padding-left: 100px; margin-top: 70px; position: relative;}
+#content .content_area li div::after{content: ''; width: 1100px; height: 200px; background: #fff; position: absolute; left: 50px; top: 0; z-index: -10;}
+#content .content_area li img{margin-right: 50px; float: left;}
+#content .content_area li .last{margin-right: 0;}
+
+#content .content_area dt:nth-child(1)::before{content: ''; display: block; width: 1200px; height: 160px; background: rgba(0, 0, 0, .4); position: absolute; left: 0; top: 66px;}
+#content .content_area li:nth-child(1) dt:nth-child(1){background: url(../images/content3/pimg_02.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(2) dt:nth-child(1){background: url(../images/content3/pimg_14.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(3) dt:nth-child(1){background: url(../images/content3/pimg_26.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(4) dt:nth-child(1){background: url(../images/content3/ph1_img01.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(5) dt:nth-child(1){background: url(../images/content3/ph1_img02.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(6) dt:nth-child(1){background: url(../images/content3/ph1_img03.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(7) dt:nth-child(1){background: url(../images/content3/ph1_img04.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(8) dt:nth-child(1){background: url(../images/content3/ph1_img05.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(9) dt:nth-child(1){background: url(../images/content3/ph1_img06.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(10) dt:nth-child(1){background: url(../images/content3/ph1_img07.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(11) dt:nth-child(1){background: url(../images/content3/ph1_img08.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(12) dt:nth-child(1){background: url(../images/content3/ph1_img09.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(13) dt:nth-child(1){background: url(../images/content3/ph1_img10.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(14) dt:nth-child(1){background: url(../images/content3/ph1_img11.jpg) no-repeat bottom;}
+#content .content_area li:nth-child(15) dt:nth-child(1){background: url(../images/content3/ph1_img12.jpg) no-repeat bottom;}
+
+
+

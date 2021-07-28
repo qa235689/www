@@ -1,0 +1,31 @@
+#content{border-top: 20px solid #0099cc; padding: 50px 0; background: url(../images/checkjoin_img.png) no-repeat bottom; background-size: cover; background-attachment: fixed}  
+
+    .sub_cont_wrap{width: 1200px; margin: 0 auto;}
+    form{ background: #fff; border: 1px solid #ccc; border-radius: 20px; padding: 30px 50px 50px; box-sizing: border-box;}
+    .member_tab{padding: 30px 0;border-top: 1px solid #333}
+    .member_tab a{font-size: 24px;padding: 10px;margin: 0 10px;color: #aaa;}
+    .member_tab a.on{color: #000;border-bottom: 2px solid #000;font-weight: bold}
+    .member_tab span{font-size: 24px;padding: 10px;margin: 0 10px;color: #000;font-weight: bold}
+
+    .topline{overflow: hidden;}
+    .logo{display: block; width: 127px; height: 75px;  margin: 0 auto 20px;
+        background: url(../../common/images/toplogo.jpg); text-indent: -999px; overflow: hidden;}
+    h2{font-size: 1.5em; margin-bottom: 30px; font-family: 'Nanum Gothic', sans-serif; text-align: center;}
+
+    .join{text-align: left;}
+    .join h3{font-size: 1.2em; margin-top: 60px; font-family: 'Nanum Gothic', sans-serif;}
+    .join .policy{padding: 15px; overflow-y: scroll; height: 50px; line-height: 1.5em;
+        margin: 10px 0; border: 1px solid #ddd; background: #fff;}
+    .join .button{text-align: center; width: 970px; margin: 60px auto 0; overflow: hidden;}
+    /* .join .button .ok,.join .button button{display: inline-block;width: 150px; line-height: 24px; padding: 8px 0;border: none;
+        background: #2179c4;color: #fff;font-size: 14px;cursor: pointer;}
+    .join .button .cancel{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none;background: #999;color: #fff;font-size: 14px;cursor: pointer} */
+    .join .button .allcheck, .cancel, .ok{display: block; font-family: 'Nanum Gothic', sans-serif; font-size: 1.2em; font-weight: 700; color: #fff;
+         width: 250px; background: #0099cc; border-radius: 5px; float: left; padding: 20px; margin-right: 50px;}
+         .cancel{margin-right: 0;}
+    .join .button .allcheck{background: #666;}
+
+
+
+
+         

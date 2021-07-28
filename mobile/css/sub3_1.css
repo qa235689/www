@@ -1,0 +1,70 @@
+/* 서브공통 */
+.visual{position: relative; margin-top: 53px; height: 150px; width: 100%; background: url(../images/sub3_visual.jpg) no-repeat center; background-size: cover;}
+.visual h3{font-size: 1.4em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #fff; position: absolute; left: 50%; top: 50%; margin-left: -35px; margin-top: -13px;}
+.visual::before{content: ''; display: block; width: 100%; height: 20px; background: #fff; border-top-left-radius: 20px; border-top-right-radius: 20px; position: absolute; bottom: 0;}
+
+#content{}
+#content h2{font-size: 1.8em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; position: relative; margin-top: 30px;}
+#content h2::after{content: ''; display: block; background: #f93; width: 60px; height: 3px; position: absolute; left: 50%; top: 33px; margin-left: -30px;}
+
+/* 콘텐츠 */
+#content h3{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; font-size: 1.35em; padding: 50px 0 80px; margin-bottom: 30px;}
+
+#content .att01 h3{background: url(../images/sub3_1_icon1.jpg) no-repeat bottom center}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #content .att01 h3{background: url("../images/sub3_1_icon1x2.jpg") no-repeat bottom center;
+           -webkit-background-size: 50px 50px ; } 
+}
+
+#content .att02 h3{background: url(../images/sub3_1_icon2.jpg) no-repeat bottom center}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #content .att02 h3{background: url("../images/sub3_1_icon2x2.jpg") no-repeat bottom center;
+           -webkit-background-size: 50px 50px ;} 
+}
+
+#content .att03 h3{background: url(../images/sub3_1_icon3.jpg) no-repeat bottom center}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #content .att03 h3{background: url("../images/sub3_1_icon3x2.jpg") no-repeat bottom center;
+           -webkit-background-size: 50px 50px ;} 
+}
+
+
+#content .slide_con{margin-bottom: 80px;}
+#content .slide_con ul{ display: flex; flex-flow: row nowrap; align-self: center; width: 90%; margin: 15px 5%; }
+#content .slide_con li{float: left; width: 29.33%; margin: 0 1.5%; border: 1px solid #09c; border-radius: 10px; background: #fff; box-sizing: border-box;}
+#content .att02 li{border: 1px solid #f93;}
+#content .att03 li{border: 1px solid #993;}
+#content .slide_con img{width: 100%; border-radius: 50%; margin-bottom: 10px;}
+/* #content .att02 img{border: 1px solid #f93;}
+#content .att03 img{border: 1px solid #993;} */
+#content .slide_con a{display: block; padding: 8px;}
+#content .slide_con p{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; color: #09c;}
+#content .att02 p{color: #f93;}
+#content .att03 p{color: #993;}
+
+/* 팬시 */
+#dialogs{width: 90%; margin: 0 5%;}
+.dialog{width: 100%; border: 2px solid #09c; padding: 4%; box-sizing: border-box;}
+.dialog .dialog_p{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.2em; margin-bottom: 10px;}
+.dialog p:nth-of-type(2){font-family: 'Nanum Myeongjo', serif; font-weight: 700; color: #09c; text-align: justify; margin-bottom: 10px;}
+.dialog .danbox{overflow: hidden; width: 100%;}
+.dialog .danbox img{border-radius: 10px; float: left; width:50%; margin-right: 5%;}
+.dialog .danbox p{text-align: justify; line-height: 1.5em;}
+
+/* .dialog{padding: 50px; border: 5px solid #09c;}
+.vr{padding: 50px; border: 5px solid #f93;}
+.cha{padding: 50px; border: 5px solid #993;}
+
+
+.dialog img{margin: 25px 0;}
+.dialog p{font-size: 1.25em; line-height: 2em;}
+.dialog p:nth-of-type(2){font-family: 'Nanum Myeongjo', serif; font-weight: 700; color: #09c;}
+.vr p:nth-of-type(2){font-family: 'Nanum Myeongjo', serif; font-weight: 700; color: #f93;}
+.cha p:nth-of-type(2){font-family: 'Nanum Myeongjo', serif; font-weight: 700; color: #993;}
+
+.dialog .dialog_p{font-size: 2em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; padding-bottom: 25px;}
+
+.dialog .tip{font-size: 1em; font-weight: bold; padding-top: 50px; position: relative;}
+.dialog .tip::after{content: ''; display: block; width: 600px; height: 1px; border-bottom: 1px dotted #ccc; position: absolute; left: 0; top: 25px;}
+.dialog p:nth-of-type(5){font-size: 1em;} */
+

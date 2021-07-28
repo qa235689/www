@@ -1,0 +1,313 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+
+.down{display: block; text-align: center; line-height: 1.5em; font-size: 20px; position: absolute; 
+	 left:50%; margin-left: -30px; bottom: 8%;
+	animation:ani 1s infinite  alternate; animation-timing-function  : ease-in-out;}
+   
+@keyframes ani {
+   0%{transform: translateY(0);}
+   100%{transform: translateY(30px);}
+	/* 0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;} */
+}	
+
+/* .videoBox .mainlogo{position: absolute; width: 60%; margin: 0 15%; top: 50%; margin-top: -125px;} */
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+.videoBox .mainlogo{position: absolute; left: 50%; margin-left: -450px; top: 50%; margin-top: -125px;}
+
+#headerArea #gnb ul li:nth-of-type(1) a{color: #006aff;}
+
+h2,.chap_tit,.chaptit_slg,.fist_text{font-family: 'Orbitron', sans-serif;}
+
+#content .ch_inbox{background: rgba(0, 0, 0, .9);text-align: center;}
+#content .ch_inbox_none{background: rgba(0, 0, 0, 0);}
+#content .subtit{position: absolute; left: 50%; margin-left: -259px; top: 50%; margin-top: -80px; text-shadow:#267dfa 0 0 20px;
+   text-align: center; font-weight: 700; font-size: 8em;}
+
+#content .fist_text{text-align: center; width: 98%; margin: 0 1%; font-size: 3.5em; padding: 200px 0 0; font-weight: 700;}
+#content .chaptit_slg{text-align: center; font-size: 2.5em; letter-spacing: 10px; color: #ccc; padding: 30px 0 200px; font-weight: 700;}
+#content .chap_tit{letter-spacing: 40px; text-align: center; font-size: 2.5em; text-transform: uppercase; margin: 150px 0; transition:all .2s;}
+#content .chap_tit:hover{letter-spacing: 2px; text-shadow:#006aff 0 0 10px;}
+#content .last_text{text-align: center; font-size: 2.5em; padding: 100px 0;}
+
+.ff14_logo{width: 560px; margin: 50px 0;}
+
+
+.cover1,.cover2,.cover3{width: 100%; height: 800px;}
+.cover1{background: url(../images/sub1/sub1_ch1_1.jpg) no-repeat center; background-size: cover;}
+.cover2{background: url(../images/sub1/sub1_ch1_2.jpg) no-repeat center; background-size: cover;}
+.cover3{background: url(../images/sub1/sub1_ch1_3.jpg) no-repeat center; background-size: cover;}
+
+.effect-apollo:hover .cover1,.effect-apollo:hover .cover2,.effect-apollo:hover .cover3{opacity: .7;}
+/* hover effet */
+.grid { overflow: hidden;
+	position: relative;
+	clear: both;
+	margin: 0 5%;
+	padding: 150px 0 0;
+	width: 90%;
+	list-style: none;
+	text-align: center;
+}
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 0 1% 50px;
+	width: 30.33%;
+	height: 800px;
+	background: #000;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+   
+  
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 1.25em;
+   text-align: center;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* hover move */
+figure.effect-apollo {
+	background: #000;
+}
+
+figure.effect-apollo img {
+	opacity: 0.95;
+
+	transition: opacity 0.35s, transform 0.35s;
+
+	transform: scale3d(1.05,1.05,1);
+}
+
+figure.effect-apollo figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	content: '';
+
+	transition: transform 0.6s;
+
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+
+
+figure.effect-apollo p {
+	width: 90%; margin: 0 5%;
+	padding: 0;
+   font-size: 1.2em;
+   line-height: 1.5em;
+	opacity: 0;
+	transition: opacity 0.35s;
+}
+
+figure.effect-apollo .hover_text_tit {
+   width: 90%; margin: 30px 5%;
+	text-align: left;
+   font-size: 1.5em;
+   font-weight: 700;
+   opacity: 1;
+}
+
+figure.effect-apollo:hover img {
+	opacity: 0.6;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+figure.effect-apollo:hover figcaption::before {
+
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+}
+
+figure.effect-apollo:hover p {
+	opacity: 1;
+	transition-delay: 0.1s;
+}
+
+/* ch_storytext */
+.ch_ullinebox{float: right; width: 60%;}
+.ch_storytext{width: 90%; margin: 0 5%;}
+.ch_storytext li{text-align: left; font-size: 1.25em; line-height: 1.5em; margin-bottom: 10px;}
+.ch_storytext li span{font-weight: 700;}
+
+/* movie */
+
+.ch_storybox{overflow: hidden;}
+.clip_big{float: left; width: 40%;}
+.clip_part_big{width: 90%; margin: 0 5%; position: relative;}
+.clip_part_big .popup-youtube>img{width: 100%; border: #fff solid 2px;}
+
+
+.clip{overflow: hidden}
+.subTitle {position: relative; padding-top: 10px; font-size: 1.5em; font-family: 'Orbitron', sans-serif; text-align: center; color: #fff}
+.contentArea:hover .subTitle{color: #20d8ff;}
+.ch3 .contentArea:hover .subTitle{color: #34a2f8;}
+.ch4 .contentArea:hover .subTitle{color: #ffbf43;}
+.ch5 .contentArea:hover .subTitle{color: #9e34f8;}
+
+.clip_part { width:33.33%; float: left; margin-bottom: 100px;}
+.clip_part .contentArea {position: relative; width: 96%; margin: 30px auto;}
+
+.imgPart {position: relative; cursor: pointer; margin-bottom: 20px;}
+.clip_part .contentArea .imgPart .popup-youtube>img {width: 100%; border: #fff solid 2px; box-sizing: border-box;}
+
+.clip_part .playBnt, .clip_part_big .playBnt{position: absolute; left: 50%; top: 50%; margin-left: -35px; margin-top: -37px; transform: scale(1); transition:all .2s;}
+.popup-youtube:hover .playBnt{transform: scale(1.2);}
+
+
+
+@media screen and (max-width:1280px) {
+	figure.effect-apollo p {font-size: 1em;}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+	/* #content .ch_inbox{background: rgba(0, 0, 0, .9);text-align: center;}
+	#content .ch_inbox_none{background: rgba(0, 0, 0, 0);}
+	#content .subtit{position: absolute; left: 50%; margin-left: -259px; top: 50%; margin-top: -80px; text-shadow:#267dfa 0 0 20px;
+	   text-align: center; font-weight: 700; font-size: 8em;} */
+	
+
+	
+	.grid {padding: 100px 0 0;}
+	#content .fist_text{font-size: 3em; padding: 150px 0 0;}
+	#content .chaptit_slg{font-size: 2em; padding: 30px 0 150px;}
+	#content .chap_tit{letter-spacing: 2px; text-shadow:#006aff 0 0 10px; font-size: 2.5em; margin: 150px 0;}
+	#content .last_text{font-size: 2em; padding: 0 0 50px;}
+
+	.cover1,.cover2,.cover3{height: 400px; border: 1px solid #fff; box-sizing: border-box; opacity: .7;}
+	.cover1{background: url(../images/sub1/sub1_ch1_4.jpg) no-repeat center; background-size: cover;}
+	.cover2{background: url(../images/sub1/sub1_ch1_5.jpg) no-repeat center; background-size: cover;}
+	.cover3{background: url(../images/sub1/sub1_ch1_6.jpg) no-repeat center; background-size: cover;}
+	.effect-apollo:hover .cover1,.effect-apollo:hover .cover2,.effect-apollo:hover .cover3{opacity: .7;}
+
+
+	.grid {padding: 100px 0 0;}
+	.grid figure {margin: 0 0 50px; width: 100%; height: 100%; float: none;}
+	.grid figure img {opacity: 1; }
+	.grid figure figcaption {font-size: 1.25em;}
+	
+	figure.effect-apollo img {height:100%; opacity: .7; transition: none; transform: none; border: 1px solid #fff; box-sizing: border-box;}
+	figure.effect-apollo figcaption::before {display: none;}
+	
+	figure.effect-apollo p {text-align: left; font-size: 1em; line-height: 1.5em; opacity: 1; transition: none;}
+	figure.effect-apollo .hover_text_tit {margin: 30px 5% 20px; text-align: left; font-size: 1.2em;}
+	
+	figure.effect-apollo:hover img {width: 100%; opacity: .7;transform:none;}
+	
+	figure.effect-apollo:hover figcaption::before {transform: none;}
+	
+	figure.effect-apollo:hover p {opacity: 1;transition-delay: 0.1s;}
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+
+  /* ch_storytext */
+.ch_ullinebox{float: none; width: 100%;}
+.ch_storytext{}
+.ch_storytext li{font-size: 1em; line-height: 1.5em; margin-bottom: 15px;}
+.ch_storytext li span{font-size: 1.2em}
+
+.ch2 .clip_part:nth-of-type(3), .ch3 .clip_part:nth-of-type(3),.ch4 .clip_part:nth-of-type(3),.ch5 .clip_part:nth-of-type(3){display: none;}
+
+/* movie */
+
+#content .fist_text{font-size: 2.5em; padding: 150px 0 0;}
+#content .chaptit_slg{font-size: 1.5em; padding: 30px 0 150px;}
+.ch_storybox{overflow: hidden;}
+.clip_big{display: none;}
+.clip_part_big{width: 90%; margin: 0 5%; position: relative;}
+.clip_part_big .popup-youtube>img{width: 100%; border: #fff solid 2px;}
+
+
+.clip{overflow: hidden}
+.subTitle {position: relative; padding-top: 10px; font-size: 1.5em; font-family: 'Orbitron', sans-serif; text-align: center; color: #fff}
+.contentArea:hover .subTitle{color: #fff;}
+.ch3 .contentArea:hover .subTitle{color: #fff;}
+.ch4 .contentArea:hover .subTitle{color: #fff;}
+.ch5 .contentArea:hover .subTitle{color: #fff;}
+
+.clip_part {width:50%;}
+.clip_part .contentArea {position: relative; width: 96%; margin: 30px 2%;}
+
+.imgPart {position: relative; cursor: pointer; margin-bottom: 20px;}
+.clip_part .contentArea .imgPart .popup-youtube>img {width: 100%; border: #fff solid 2px;}
+
+.clip_part .playBnt, .clip_part_big .playBnt{position: absolute; left: 50%; top: 50%; margin-left: -35px; margin-top: -37px; transform: scale(1); transition:all .2s;}
+.popup-youtube:hover .playBnt{transform: scale(1);}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+	#content .fist_text{font-size: 2em; padding: 100px 0 0;}
+	#content .chaptit_slg{font-size: 1.5em; padding: 30px 0 100px; letter-spacing: 5px;}
+	#content .chap_tit{font-size: 2em; margin: 100px 0;}
+	#content .last_text{font-size: 1.5em;}
+	.ff14_logo{width: 90; margin: 50px 5%;}
+
+	.clip_part {width:100%;}
+	.ch2 .clip_part:nth-of-type(2), .ch3 .clip_part:nth-of-type(2),.ch4 .clip_part:nth-of-type(2),.ch5 .clip_part:nth-of-type(2){display: none;}
+
+	figure.effect-apollo .hover_text_tit {margin: 30px 5% 20px; text-align: left; font-size: 1.2em;}
+	figure.effect-apollo p {text-align: left; font-size: 1em; line-height: 1.3em; opacity: 1; transition: none;}
+
+	.cover1,.cover2,.cover3{height: 400px;}
+	.grid figure {height: 100%;}
+
+	#content .subtit{margin-left: -161px; margin-top: -50px; font-size: 5em;}
+}
+
+
+
+

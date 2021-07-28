@@ -1,0 +1,140 @@
+
+.visual{margin: 186px 0 210px; position: relative; width: 2000px; left: 50%; margin-left: -1000px;}
+img{border:0; vertical-align:top;}
+.main{ position:relative;width:2000px; height:800px; overflow: hidden;}
+
+.gallery{position:relative;overflow:hidden; width:6000px;
+          height:800px;left:0; top:0;}
+.gallery ul li{ float:left; list-style:none;}
+
+.gallery_text{position: absolute; left: 0;top: 50%; margin-top: -133px; width: 100%;}
+.gallery_text li{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; font-size: 35px; line-height: 1.5em;
+        color: #fff; background: rgba(0,0,0,.5); padding: 80px 0; display: none}
+.gallery_text li span{font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 50px; position: relative; color: #00c0ff;}
+
+.dock{width:500px; position:absolute; left:950px; top:750px;}
+
+.dock span.mbutton{ margin-right:15px; cursor:pointer; display:block;
+           float:left;  width:16px; height:16px;
+   background: #fff; border-radius:8px;
+  transition: all .5s}
+.dock .ps{ margin-right:15px; margin-top: -5px; cursor:pointer; 
+    display:block; float:left; width:24px; height:24px;
+    background:url(../images/stop.png)}
+
+.main .btn{display: block; width: 64px; height: 64px;
+        position: absolute;  top:50%; margin-top: -32px; cursor:pointer; }
+.main .btnLeft{left:80px; background: url(../images/arrow2.png);}
+.main .btnRight{right:80px; background: url(../images/arrow1.png)}
+
+
+
+#content{width: 100%; margin: 0 auto;}
+
+
+h3, .tab, .more{font-family: 'Nanum Gothic', sans-serif;}
+/* 혜택 */
+.con_discount{width: 1200px; margin: 0 auto;}
+#content .con_discount h3{font-size: 3.75em; font-weight: 700; text-align: center;}
+#content .dis_disbox{width: 1200px; height: 600px; margin: 60px 0 60px; overflow: hidden;}
+#content .dis_leftbox{width: 890px; height: 600px; background: #fffcd7; float:left; display:none;}
+
+#content .dis_leftbox p:nth-of-type(1){font-size: 1.875em; font-weight: 700; text-align: center; margin-top: 45px;}
+#content .dis_leftbox p:nth-of-type(2){font-family: 'Nanum Myeongjo', serif; font-size: 3.75em; font-weight: 700; text-align: center;}
+#content .dis_leftbox p:nth-of-type(3){font-size: 1.125em; text-align: center; padding: 10px 0;}
+#content .dis_leftbox img{width: 843px; margin-left: 24px; padding-top: 30px;}
+
+#content .dis_rightbox{width: 310px; height: 600px; background: url(../images/discount_backgruond.jpg); float: right;}
+#content .dis_rightbox ul{width: 310px; height: 520px; margin-top: 80px;}
+
+#content .dis_rightbox li a{display: block; font-size: 1.5em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; padding: 50px 0; color: #fff;}
+
+#content .con_discount .more{display: block; font-size: 1.5em; text-align: center; margin-bottom: 250px;}
+
+
+
+/* 어트렉션 */
+#content .con_attraction{width: 2000px; left: 50%; margin-left: -1000px; margin-bottom: 110px; padding-bottom: 60px;  background: url(../images/attraction_backgruond.jpg) no-repeat;}
+#content .con_attraction h3{font-size: 3.75em; font-weight: 700; text-align: center; padding-top: 60px;}
+
+#content .con_attraction .att_text{font-size: 1.5em; text-align: center; padding: 50px 0;}
+#content .con_attraction .att_imgbox{width: 1200px; margin: 0 auto;}
+#content .con_attraction li img{transform: scale(1); transition: all .5s ease-out;}
+#content .con_attraction li:hover img{transform: scale(1.2);}
+#content .con_attraction ul{overflow: hidden; margin-left: 25px;}
+#content .con_attraction li{float: left; margin-right: 20px; overflow: hidden; position: relative;}
+#content .con_attraction .last{margin-right: 0;}
+#content .con_attraction dl{width: 370px; height: 500px; color: #fff; background: rgba(0, 0, 0, .7); position: absolute; left: 0; top: 380px; transition: all .5s ease-out;}
+#content .con_attraction li:hover dl{top: 0; background: rgba(0, 0, 0, .9);}
+#content .con_attraction dt{font-size: 1.875em; font-family: 'Nanum Gothic', sans-serif; position: relative;
+        text-align: center; margin: 50px 0 40px; transition: all .5s ease-out;}
+#content .con_attraction li:hover dt{margin-top: 140px; color: #f93;}
+#content .con_attraction dd{font-size: 1.125em; text-align: center; line-height: 2em; position: relative;}
+
+
+#content .con_attraction dl dt::after{content: ''; display: block; width: 0; height: 2px; background: #fff;  transition: all .5s ease-out;
+        position: absolute; top: -25px; left: 20px;}
+#content .con_attraction dl:hover dt::after{ width: 330px; top: -115px;}
+
+#content .con_attraction dl dt::before{content: ''; display: block; width: 0; height: 2px; background: #fff;  transition: all .5s ease-out;
+        position: absolute; bottom: -305px; right: 20px;}
+#content .con_attraction dl:hover dt::before{ width: 330px; bottom: -300px;}
+
+
+#content .con_attraction dl dd::after{content: ''; display: block; width: 2px; height: 0; background: #fff;  transition: all .5s ease-out;
+        position: absolute; top: 0; left: 20px;}
+#content .con_attraction dl:hover dd::after{ height: 455px; top: -195px;}
+
+#content .con_attraction dl dd::before{content: ''; display: block; width: 2px; height: 0; background: #fff;  transition: all .5s ease-out;
+        position: absolute; bottom: 0; right: 20px;}
+#content .con_attraction dl:hover dd::before{ height: 455px; bottom: -152px;}
+
+#content .con_attraction .more{display: block; margin: 50px 0 210px; font-size: 1.5em; text-align: center;}
+
+
+
+/* notice & event */
+#content .con_conbox{width: 100%; background: #f8f8f8;}
+#content .con_notifaq{width: 1200px; overflow: hidden; margin: 0 auto;}
+#content .con_conbox h3{margin: 100px 0 0 40px; font-family: 'Roboto', sans-serif; font-size: 2.25em; text-transform: uppercase;}
+#content .con_conbox h3 a{color: #ff9933;}
+
+#content .con_conbox .con_notice{position: relative;}
+#content .con_conbox .con_notice .more{display: block; position: absolute; right: 40px; top: 100px;}
+#content .con_conbox .con_faq{position: relative;}
+#content .con_conbox .con_faq .more{display: block; position: absolute; right: 40px; top: 100px;}
+
+#content .con_conbox ul{margin: 30px 0 100px 40px; width: 500px;}
+#content .con_conbox li{ text-align: justify; line-height: 2.5em; overflow: hidden;}/* text-overflow: ellipsis; white-space: nowrap; */
+
+#content .con_conbox li a{color: #666;font-size: 1.2em;}
+#content .con_conbox li a:hover{color: #ff9933; text-decoration: underline;}
+#content .con_conbox li a span{float: right; }
+#content .con_notice{width: 600px; float: left;}
+#content .con_faq{width: 600px; float: right;}
+
+/* 즐길거리 */
+#content .con_enjoy{position: relative; width: 1200px; margin: 0 auto;}
+#content .con_enjoy .more{display: block; position: absolute; right: 70px; top: 30px;}
+
+#content .con_enjoy h3{font-size: 3.75em; text-align:center; margin: 270px 0 60px;}
+
+#content .con_enjoy .joy_box{padding-bottom: 150px;}
+#content .con_enjoy ul{overflow: hidden; margin-left: 50px; padding-bottom: 50px;}
+#content .con_enjoy li{float: left; margin-right: 20px;  box-shadow: 5px 5px 5px 2px #eaeaea; overflow: hidden;}
+#content .con_enjoy li a{display: block; border: 1px solid #ccc; transition: all .5s ease-out;}
+#content .con_enjoy li:hover a{border: 1px solid #ff9933;}
+#content .con_enjoy li .last{margin-right: 0;}
+#content .con_enjoy li img{opacity: .7; transition: all .5s ease-out;}
+#content .con_enjoy li:hover img{opacity: 1;}
+#content .con_enjoy dl{}
+#content .con_enjoy dt{margin: 30px 0 20px 10px; font-size: 1.5em; font-family: 'Roboto', sans-serif; font-weight: 700; 
+                    text-transform: uppercase; color: #333;}
+#content .con_enjoy dd{font-size: 1em; line-height: 2em; color: #666; margin: 0 0 30px 10px;}
+
+/* 스크롤이벤트 */
+.con{position: relative; top:0; transform: scale(.9); opacity: 0; transition: all 1s}
+/* .con_attraction, .con_enjoy{position: relative; right:-1000px; top:0; opacity: 0; transition: all 1s} */
+
+.boxmove{opacity: 1; transform: scale(1)}
+/* .con_attraction.boxmove, .con_enjoy.boxmove{right:0; opacity: 1} */

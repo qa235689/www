@@ -1,0 +1,47 @@
+/* 서브공통 */
+.visual{position: relative; margin-top: 53px; height: 150px; width: 100%; background: url(../images/sub4_visual.jpg) no-repeat center; background-size: cover;}
+.visual h3{font-size: 1.4em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #fff; position: absolute; left: 50%; top: 50%; margin-left: -35px; margin-top: -13px;}
+.visual::before{content: ''; display: block; width: 100%; height: 20px; background: #fff; border-top-left-radius: 20px; border-top-right-radius: 20px; position: absolute; bottom: 0;}
+
+#content{}
+#content h2{font-size: 1.8em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; position: relative; margin-top: 30px; margin-bottom: 50px;}
+#content h2::after{content: ''; display: block; background: #f93; width: 60px; height: 3px; position: absolute; left: 50%; top: 33px; margin-left: -30px;}
+
+/* 콘텐츠 */
+#content .contop{ margin-bottom: 80px;}
+#content .contop p{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; font-size: 1.2em; margin-bottom: 50px;}
+#content .contop p span{color: #f93;}
+#content .contop ul{overflow: hidden; width: 90%; margin: 0 5%;}
+#content .contop li{float: left; width: 27.33%; margin: 0 3%; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
+#content .contop li img{width: 100%; margin-bottom: 20px;}
+
+#content .slide_con{margin-bottom: 80px;}
+
+
+#content .pro ul li h3{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; font-size: 1.4em; margin-bottom: 50px;}
+#content .pro_con{width: 96%; margin: 0 2%;}
+#content .pro dt{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.2em; margin-bottom: 10px;}
+#content .pro dd{text-align: justify; line-height: 1.5em;}
+#content .pro .pro_imgbox{overflow: hidden; margin: 15px 0 30px;}
+#content .pro .pro_imgbox li{width: 31.33%; margin: 0 1%; float: left;}
+#content .pro .pro_imgbox li img{width: 100%; border-radius: 10px;}
+
+#content .package{}
+#content .package .pack_tit{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.2em; margin-bottom: 15px;}
+#content .packin{width: 94%; margin: 0 3% 20px;}
+#content .packin dt{font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; color: #fff; padding: 5px; position: relative;}
+#content .packin dt::after{content: ''; display: block; width: 100px; height: 100%; background: #09c; 
+    border-radius: 10px; position: absolute; left: -1px; top: 0; z-index: -10;}
+    #content .pro_box02 .packin dt::after{background: #f93;}
+#content .packin dd{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 10px;}
+
+#content .gpro{border: 1px solid #ccc; border-radius: 20px; width: 90%; margin: 0 2%; padding: 3%;}
+#content .gpro p{line-height: 1.5em; text-align: justify;}
+#content .gpro p:nth-child(1){margin-bottom: 10px;}
+#content .gpro_a{width: 96%; margin: 15px 2% 0; text-align: justify; line-height: 1.5em;}
+#content .gpro_a p{margin-bottom: 5px;}
+#content .gpro_a a{padding: 5px;font-weight: bold;}
+
+
+
+

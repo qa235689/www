@@ -1,0 +1,31 @@
+/* 서브공통 */
+.visual{position: relative; margin-top: 53px; height: 150px; width: 100%; background: url(../images/sub3_visual.jpg) no-repeat center; background-size: cover;}
+.visual h3{font-size: 1.4em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #fff; position: absolute; left: 50%; top: 50%; margin-left: -35px; margin-top: -13px;}
+.visual::before{content: ''; display: block; width: 100%; height: 20px; background: #fff; border-top-left-radius: 20px; border-top-right-radius: 20px; position: absolute; bottom: 0;}
+
+#content{}
+#content h2{font-size: 1.8em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; position: relative; margin-top: 30px; margin-bottom: 50px;}
+#content h2::after{content: ''; display: block; background: #f93; width: 60px; height: 3px; position: absolute; left: 50%; top: 33px; margin-left: -30px;}
+
+/* 콘텐츠 */
+
+.tit, .text{width: 96%; margin: 0 2%;}
+
+#content ul .tit{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 10px; font-size: 1.15em; text-align: right; clear: both;}
+#content ul .tit span{color: #09c; font-size: 1.3em;}
+.backimg1, .backimg2, .backimg3{width: 100%; height: 100px; margin-bottom: 20px;}
+#content ul .backimg1 {background: url(../images/sub3_3_img1.jpg) no-repeat center; background-size: cover;}
+#content ul .backimg2 {background: url(../images/sub3_3_img2.jpg) no-repeat center; background-size: cover;}
+#content ul .backimg3 {background: url(../images/sub3_3_img3.jpg) no-repeat center; background-size: cover;}
+#content ul .text{text-align: justify; line-height: 1.5em; margin-bottom: 15px; font-size: 1.1em;}
+
+#content .detabox {width: 90%; height: 100%; margin: 25px 5%; background: #efefef; border-radius: 20px; border: 1px solid #ccc}
+#content .detabox ul{padding: 15px;}
+#content .detabox ul li{text-align: justify; line-height: 1.5em;}
+#content .detabox ul li span{font-weight: bold;}
+#content .a_line{overflow: hidden; width: 90%; margin: 0 5% 80px;}
+#content .a_line a{display: block; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; background: #09c; color: #fff;
+    text-align: center; padding: 8px; float: left; margin-right: 15px; border-radius: 15px;}
+
+
+

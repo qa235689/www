@@ -1,0 +1,46 @@
+#content{ background: #efefef}  
+
+.sub_cont_wrap{width: 98%; margin: 0 1%;}
+
+/* .member_tab{padding: 30px 0;border-top: 1px solid #333}
+.member_tab a{font-size: 24px;padding: 10px;margin: 0 10px;color: #aaa;}
+.member_tab a.on{color: #000;border-bottom: 2px solid #000;font-weight: bold}
+.member_tab span{font-size: 24px;padding: 10px;margin: 0 10px;color: #000;font-weight: bold} */
+
+.topline{overflow: hidden;}
+h1 .logo{display: block; font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 5em; color: #09c; text-align: center; margin: 50px 0;}  
+     /* background: url(../../common/images/toplogo.jpg); */
+h2{font-size: 3em; margin-bottom: 30px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center;}
+
+form{width: 96%; margin: 0 2%;}
+
+.join{text-align: left;}
+h3{font-size: 2em; margin: 60px 0 30px; font-family: 'Nanum Gothic', sans-serif;}
+.policy{margin-bottom: 20px; padding: 2%; font-size: 2em; height: 400px;
+    overflow-y: scroll; line-height: 1.5em; border: 1px solid #ddd; background: #fff;}
+.check{font-size: 1.5em;}
+.check input[name="agree"]{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.check input[name="agree"]:checked {background-color: #666666;}
+/* .check input[type="checkbox" i]{padding: 10px;} */
+
+
+.button{overflow: hidden; width: 90%; margin: 0 5%; padding: 50px 0; text-align: center;}
+.button li{width: 30.33%; margin: 0 1%; float: left;}
+.button li a{display: block; width: 100%; padding: 20px 0; background: #09c; border-radius: 5px;
+    font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 2em; color: #fff;}
+.button li:nth-of-type(1) a{background: #666;}
+
+/* 
+.join .button .allcheck, .cancel, .ok{display: block; font-family: 'Nanum Gothic', sans-serif; font-size: 1.2em; font-weight: 700; color: #fff;
+    width: 250px; background: #0099cc; border-radius: 5px; float: left; padding: 20px; margin-right: 50px;}
+.cancel{margin-right: 0;}
+.join .button .allcheck{background: #666;} */
+
+
+
+
+         

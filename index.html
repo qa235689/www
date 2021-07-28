@@ -1,0 +1,256 @@
+<? 
+session_start();
+@extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월미테마파크</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <script src="./mainjs/mainpopup.js"></script>
+    <script src="common/js/prefixfree.min.js"></script>
+
+
+
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+</head>
+<body>
+    
+    <div class="wrap">
+       <!-- 상단 헤더영역 -->
+        <? include "./common/main_head.html" ?>
+
+        <div class="visual">
+
+            <div class="main">
+                <div class="gallery">
+                      <ul>
+                           <li><img src="images/visual1.jpg" alt='' /></li>
+                           <li><img src="images/visual2.jpg" alt='' /></li>
+                           <li><img src="images/visual3.jpg" alt='' /></li>
+                     </ul>
+              </div>
+              
+            <div class="gallery_text">
+                <ul>
+                    <li><span>wolmi theme park</span><br>365일 즐거움이 있는</li>
+                    <li><span>wolmi theme park</span><br>온가족이 함께하는</li>
+                    <li><span>wolmi theme park</span><br>스릴이 가득한</li>
+                </ul>
+            </div>
+              
+             <div class="dock">
+                   <span class="mbutton  btn1" ></span>
+                   <span class="mbutton  btn2" ></span>
+                   <span class="mbutton  btn3" ></span>
+                   <span class="ps" ></span>
+             </div>
+           
+             <!-- <span class="btn btnLeft"></span>
+             <span class="btn btnRight"></span> -->
+          </div> 
+
+        </div>
+        <article id="content">
+        
+                <h2 class="hidden">본문콘텐츠영역</h2>
+            
+                <section class="con con_discount">
+                    <h3>나에게 꼭 맞는 놀라운 혜택!</h3>
+                    <div class="dis_disbox">
+                        <div class="dis_rightbox">
+                            <ul>
+                                <li>
+                                    <a href="#" class="tab tab1"><span><i class="far fa-dot-circle"></i></span> 어린이 패키지</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="tab tab2"><span><i class="far fa-dot-circle"></i></span> 학생 패키지</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="tab tab3"><span><i class="far fa-dot-circle"></i></span> 멤버십 패키지</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="tab tab4"><span><i class="far fa-dot-circle"></i></span> 생일 패키지</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dis_leftbox">
+                            <p>모여라~! 즐거운 어린이날!</p>
+                            <p>어린이 패키지 19,500원</p>
+                            <!-- <p>5월 5일~ 어린이날! 월미테마파크로~!</p> -->
+                            <img src="./images/discount_img1.png" alt="">
+                        </div>
+                        <div class="dis_leftbox">
+                            <p>신난다! 시험 끝!</p>
+                            <p>학생 패키지 24,500원</p>
+                            <!-- <p>시험의 스트레스를 월미테마파크에서 쏴악! 날려버리세요!</p> -->
+                            <img src="./images/discount_img2.png" alt="">
+                        </div>
+                        <div class="dis_leftbox">
+                            <p>Wow!! 놀라운 맴버십!</p>
+                            <p>맴버십 패키지 29,500원</p>
+                            <!-- <p>맴버십도 가입하고 패키지도 즐기고!</p> -->
+                            <img src="./images/discount_img3.png" alt="">
+                        </div>
+                        <div class="dis_leftbox">
+                            <p>Happy birthday!</p>
+                            <p>생일 패키지 22,500원</p>
+                            <!-- <p>생일날 기분좋게 놀아보자~!</p> -->
+                            <img src="./images/discount_img4.png" alt="">
+                        </div>
+            
+
+            
+                    </div>
+                    
+                    <a class="more" href="./sub2/sub2_3.html">더 많은 혜택이 궁금하다면? <i class="fas fa-long-arrow-alt-right"></i></a>
+                    
+                </section>
+                <section class="con con_attraction">
+                    <h3>어트렉션</h3>
+                    <p class="att_text">월미테마파크의 인기만점 대표 어트렉션!</p>
+                        <div class="att_imgbox">
+                            <ul>
+                                <li>
+                                    <img src="./images/atteaction01.jpg" alt="대관람차이미지">
+                                    <dl>
+                                        <dt>대관람차</dt>
+                                        <dd>인천대교와 인천 앞바다의<br>야경을 한눈에<br>볼 수 있는 대관람차!</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <img src="./images/atteaction02.jpg" alt="타가다디스코이미지">
+                                    <dl>
+                                        <dt>타가다 디스코</dt>
+                                        <dd>타는사람도 보는사람도<br>모두가 빵빵 터지는<br>즐거운 웃음이 가득한 시간!</dd>
+                                    </dl>
+                                </li>
+                                <li class="last">
+                                    <img src="./images/atteaction03.jpg" alt="2층바이킹이미지">
+                                    <dl>
+                                        <dt>2층 바이킹</dt>
+                                        <dd>국내 최대 크기의 <br>월미도 2층 바이킹!<br>함께 스트레스를 날려버려요!</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                    <a class="more" href="./sub3/sub3_1.html">더 많은 어트렉션 보러가기 <i class="fas fa-long-arrow-alt-right"></i></a>
+                    
+                </section>
+
+                
+                <div class="con con_conbox">
+                    <? include "./lib/func.php"; ?>
+                    <div class="con_notifaq">
+                        <section class="con_notice">
+                            <h3><a href="./greet/list.php">notice</a></h3>
+                            <ul>
+                                <!-- <li><a href="#">[NEW OPEN] 국내 최대 길이의 카트레이싱존 오픈!</a></li>
+                                <li><a href="#">[NEW OPEN] 귀여운 동물친구들과 함께하는 동물붕붕카!</a></li>
+                                <li><a href="#">[New] 2층으로 더 새로워진 사이버루프 NEW OPEN!!</a></li>
+                                <li><a href="#">[행사] 자리니합창단 크리스마스 소공연</a></li>
+                                <li class="last"><a href="#">[축제] 2017 인천 중국의날 문화축제!</a></li> -->
+                                <? latest_article("greet", 5, 20, 1); ?>
+
+                            </ul>
+                            <a class="more" href="./greet/list.php"><img src="./images/add01.png" alt="더보기"></a>
+                        </section>
+                        <section class="con_faq">
+                            <h3><a href="./concert/list.php">event</a></h3>
+                            <ul>
+                                <!-- <li><a href="#">온라인 할인쿠폰으로 중복할인을 받을 수 있나요?</a></li>
+                                <li><a href="#">VIP초대권은 어떻게 사용하는 건가요?</a></li>
+                                <li><a href="#">자유이용권과 선택할인권 무엇이 다른가요?</a></li>
+                                <li><a href="#">유모차보관소와 물품보관함이 마련되어 있나요?</a></li>
+                                <li class="last"><a href="#">4세 이하 영유아의 이용시설이 있나요?</a></li> -->
+                                <? latest_article("concert", 5, 20, 2); ?>
+                            </ul>
+                            <a class="more" href="./concert/list.php"><img src="./images/add01.png" alt="더보기"></a>
+                        </section>
+                    </div>
+                </div>
+                <section class="con con_enjoy">
+                    <h3>더욱 즐기는 월미테마파크!</h3>
+                    <div class="joy_box">
+                        <ul>
+                            <li>
+                                <a href="./sub3/sub3_2.html">
+                                    <img src="./images/enjoy01.jpg" alt="">
+                                    <dl>
+                                        <dt>canival world</dt>
+                                        <dd>빙고다트부터 온갖 즐거운 게임!<br>카니발 게임을 즐기고 경품도 받아가세요!</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./sub3/sub3_2.html">
+                                    <img src="./images/enjoy02.jpg" alt="">
+                                    <dl>
+                                        <dt>steff hotdog</dt>
+                                        <dd>130년 전통의 덴마크 핫도그!<br>핫도그를 먹으며 바다의 경치를 구경하세요!</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="./sub3/sub3_2.html">
+                                    <img src="./images/enjoy03.jpg" alt="">
+                                    <dl>
+                                        <dt>gift shop</dt>
+                                        <dd>놀이기구만 타면 아쉽다!<br>기프트샵에서 기념품 어떠신가요?</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                        </ul>
+                            <a class="more" href="./sub3/sub3_2.html"><img src="./images/add02.png" alt="더보기"></a>
+                        
+                    </div>
+                </section>
+        
+
+        </article>
+        <!-- 하단 푸터영역 -->
+        <? include "./common/main_foot.html" ?>
+    </div>
+
+    <!-- 공지파업 -->
+    <div id="showimage" style="z-index:40;position:absolute;width:322px;left:100px;top:250px;">
+        <script>
+          function closeWin(){
+             var chk = document.getElementById('Notice')
+             if ( chk.checked ) {
+                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+              }
+          }
+         if ( getCookie( "Notice" ) == "done" ) {
+             hidebox();
+         }
+       </script>
+          <div>
+                <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+          </div>
+           <div style="font-size:12px;text-align:center;color:#fff;">
+             <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+           <a style="color: #fff;" href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+      </div>
+
+
+      <!-- JQuery -->
+      <script src="common/js/jquery-1.12.4.min.js"></script>
+      <script src="common/js/jquery-migrate-1.4.1.min.js"></script>
+      <script src="common/js/fullnav.js"></script>
+      <script src="mainjs/move.js"></script>
+
+</body>
+</html>

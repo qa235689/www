@@ -1,0 +1,355 @@
+<? 
+session_start();
+@extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>월미테마파크_단체가이드</title>
+
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub4_1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
+    <script src="js/prefixfree.min.js"></script>
+    
+    <script>
+    // <![CDATA[
+    try {
+    window.addEventListener('load', function(){
+        setTimeout(scrollTo, 0, 0, 1); 
+    }, false);
+    } 
+    catch(e) {}
+    // ]]>
+    </script>
+
+    
+    <!--[if lt IE 9]> 
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    </head>
+
+<body>
+    <div id="skipNav">
+        <a href="#content">본문바로가기</a>
+        <a href="#gnb">네비게이션바로가기</a>
+    </div>
+    
+    
+    <div id="wrap">
+        
+        <header id="headerArea">
+            <div class="box"></div>
+            <div class="header_top">
+                <h1 class="logo"><a href="index.html">월미테마파크</a></h1>
+                <a href="#" class="menu_ham">
+                    <span>메뉴열기</span>
+                </a>
+            </div>
+            
+            <nav id="gnb">
+            <h2 class="hidden">글로벌네비게이션영역</h2>
+            <dl>
+                <dt>WOLMI THEME PARK</dt>
+                <dd>월 미 테 마 파 크</dd>
+            </dl>
+                <ul class="mainmenu">
+                    <li class="depth1">
+                        <h3><a class="depth1_a" href="#">테마파크</a></h3>
+                        <ul>
+                            <li><a href="./sub1_1.html">테마파크소개</a></li>
+                            <li><a href="./sub1_2.html">색다른특별함</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3><a class="depth1_a" href="#">이용안내</a></h3>
+                        <ul>
+                            <li><a href="./sub2_1.html">이용요금및시간</a></li>
+                            <li><a href="./sub2_2.html">오시는길</a></li>
+                            <li><a href="./sub2_3.html">혜택안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3><a class="depth1_a" href="#">즐길거리</a></h3>
+                        <ul>
+                            <li><a href="./sub3_1.html">어트렉션</a></li>
+                            <li><a href="./sub3_2.html">게임/편의시설</a></li>
+                            <li><a href="./sub3_3.html">주변시설</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1 last">
+                        <h3><a class="depth1_a" href="#">단체안내</a></h3>
+                        <ul>
+                            <li><a href="./sub4_1.html">단체가이드</a></li>
+                            <li><a href="./sub4_2.html">단체리플렛</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav_bottom">
+                    <?
+                    if(!$userid) //세션변수가 등록되지 않았다면
+                    {
+                    ?>
+                    <li><a href="./member/member_check.html">회원가입</a></li>
+                    <li><a href="./login/login_form.php">로그인</a></li>
+                    <?
+                    }
+                    else //세션변수가 등록되어 있다면
+                    {
+                    ?>
+                    <li><a href="./member/member_form_modify.php">정보수정</a></li>
+                    <li><a href="./login/logout.php">로그아웃</a></li>
+                    <?
+                    }
+                    ?>
+                    <li><a href="./faq.html">FAQ</a></li>
+                </ul>
+                <a class="mclose" href="#"><span class="hidden">메뉴닫기</span><i class="fas fa-times"></i></a>
+            </nav>
+            
+        </header>
+        <div class="visual">
+            <h3>즐길거리</h3>
+        </div>
+        <article id="content">
+            <h2>단체가이드</h2>
+            <div class="content_area">
+                <div class="contop">
+                    <p>월미테마파크의 <span>단체프로그램</span>은?</p>
+                    <ul>
+                        <li><img src="./images/traffic.png" alt="">
+                            가깝고 교통 편리</li>
+                        <li><img src="./images/security.png" alt="">
+                            안전한 실내 시설</li>
+                        <li class="last"><img src="./images/time-left.png" alt="">
+                            비용과 시간 절약</li>
+                    </ul>
+                </div>
+
+                <div class="pro">
+
+
+                    <ul>
+                        <li class="slide_con pro_box01">
+                            <h3>어린이 단체</h3>
+
+                            <ul class="pro_con">
+                                <li class="first">
+                                    
+                                    <dl>
+                                        <dt>다양한 테마파크 놀이시설</dt>
+                                        <dd class="bottomdd">미니후룸라이드, 회전목마, 풍선비행, 회전그네 등 아이들이 좋아하고 안전하게 이용가능한 다양한 놀이시설이 한 가득!</dd>
+                                    </dl>
+                                    <ul class="pro_imgbox">
+                                        <li><img src="./images/sub4_1_img1.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img2.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img3.jpg" alt=""></li>
+                                    </ul>
+                                </li>
+                                <li class="first">
+                                   <dl>
+                                        <dt>놀이교육 체험관 차피패밀리파크</dt>
+                                        <dd class="bottomdd">동물인형로봇공연과 어린이 카트 레이싱존, 차피의 볼배플존 까지 다른 곳에서는 체험할 수 없었던 다양한 체험놀이를 
+                                            차피패밀리파크에서 즐기며 창의력, 사고력 등 두뇌발달을 향상 시켜보세요!</dd>
+                                   </dl>
+                                   <ul class="pro_imgbox">
+                                    <li><img src="./images/sub4_1_img4.jpg" alt=""></li>
+                                    <li><img src="./images/sub4_1_img5.jpg" alt=""></li>
+                                    <li><img src="./images/sub4_1_img6.jpg" alt=""></li>
+                                    </ul>
+                                </li>
+                                <li class="package">
+                                    <p class="pack_tit">단체프로그램 안내</p>
+                                    <dl class="packin">
+                                        <dt>package 1</dt>
+                                        <dd>차피패밀리파크 실내놀이터 + 월미테마파크 놀이기구 3기종</dd>
+                                        <dt>package 2</dt>
+                                        <dd>차피패밀리파크 실내놀이터 이용</dd>
+                                        <dt>package 3</dt>
+                                        <dd>월미테마파크 놀이기구 3기종 이용</dd>
+                                        <dt>package 4</dt>
+                                        <dd>월미테마파크 놀이기구 5기종 이용</dd>
+                                    </dl>
+                                
+                                    <div class="gpro">
+                                        <p>단체관람 전 문의주시면 담당 코디네이터가 <strong>출발-관람-식사-도착</strong> 까지 맞춤형 계획을 만들어 드립니다. 
+                                            단체관람 예약 시 할인가를 적용해 드리며, 어린이 10명당 선생님(성인보호자)1명 무료입장 입니다. </p>
+                                        <p><strong>단체담당자</strong> : 윤대완 과장</p>
+                                        <p><strong>전화번호</strong> : 032-761-0997 / 010-4568-5118</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="slide_con pro_box02">
+                            <h3>학생 단체</h3>
+
+                            <ul class="pro_con">
+                                <!-- <li class="first">
+                                    <dl>
+                                        <dt class="pro_p">놀이시설 안내</dt>
+                                        <dd>학생들이 가장 좋아하는 월미테마파크의 신나고 스릴있는 놀이시설을 즐겨보세요!</dd>
+                                       
+                                    </dl>
+                                    <img src="./images/sub4_1_img7.jpg" alt="">
+                                    <img src="./images/sub4_1_img8.jpg" alt="">
+                                    <img src="./images/sub4_1_img9.jpg" alt="">
+                                </li> -->
+                                <li>
+                                    <dl>
+                                        <dt class="pro_p">개회장코스안내</dt>
+                                        <dd>동화마을, 차이나 타운, 한중문화 박물관, 자유공원 등 다른곳에서 체험할 수 없었던 새로운 문화를 접할 수 있습니다.</dd>
+                                       
+                                    </dl>
+                                    <ul class="pro_imgbox">
+                                        <li><img src="./images/sub4_1_img10.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img11.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img12.jpg" alt=""></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt class="pro_p">월미도코스 안내</dt>
+                                        <dd>월미공원, 월미전망대, 한국이민사박물관, 인천항 갑문등 월미도의 다양한 모습을 체험 해 볼 수 있습니다.</dd>
+                                       
+                                    </dl>
+                                    <ul class="pro_imgbox">
+                                        <li><img src="./images/sub4_1_img13.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img14.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img15.jpg" alt=""></li>
+                                    </ul>
+                                </li>
+              
+                                <li class="package">
+                                    <p class="pack_tit">단체프로그램 안내</p>
+                                    <dl class="packin">
+                                        <dt>package 1</dt>
+                                        <dd>개행장코스(송월동 동화마을, 차이나타운, 한중문화박물관, 자유공원 등) + 월미테마파크 자유이용</dd>
+                                        <dt>package 2</dt>
+                                        <dd>개행장코스(송월동 동화마을, 차이나타운, 한중문화박물관, 자유공원 등) + 월미테마파크 선택기종이용</dd>
+                                        <dt>package 3</dt>
+                                        <dd>월미도코스(월미공원, 월미전망대, 한국이민사박문관, 인천항갑문 등) + 월미테마파크 자유이용</dd>
+                                        <dt>package 4</dt>
+                                        <dd>월미도코스(월미공원, 월미전망대, 한국이민사박문관, 인천항갑문 등) + 월미테마파크 선택기종이용</dd>
+                                    </dl>
+                                
+                                    <div class="gpro">
+                                        <p>단체관람 전 문의주시면 담당 코디네이터가 <strong>출발-관람-식사-도착</strong> 까지 맞춤형 계획을 만들어 드립니다. 
+                                            단체관람 예약 시 할인가를 적용해 드리며, 학생 15명당 선생님(성인보호자)1명 무료입장 입니다.</p>
+                                        <p><strong>단체담당자</strong> : 윤대완 과장</p>
+                                        <p><strong>전화번호</strong> : 032-761-0997 / 010-4568-5118</p>
+                                    </div>
+                                    <div class="gpro_a">
+                                        <p>※IPUS 인천항 포탈에서 갑문홍보관, 이민사박물관등 월미테마파크와 연계된 단체프로그램 견학신청이 가능합니다.</p>
+                                        <a href="#"><i class="fas fa-caret-right"></i> IPUS 인천항포탈 바로가기</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="slide_con pro_box03">
+                            <h3>일반 단체</h3>
+
+                            <ul class="pro_con">
+                                <li class="first">
+                                    <dl>
+                                        <dt class="pro_p">월미도 주변 관광지 관람</dt>
+                                        <dd>월미도 문화의거리, 월미산, 월미전망대, 월미공원, 차이나타운 등 월미도의 주변 관광지를 둘러보실 수 있습니다.</dd>
+                                       
+                                    </dl>
+                                    <ul class="pro_imgbox">
+                                        <li><img src="./images/sub4_1_img16.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img17.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img18.jpg" alt=""></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt class="pro_p">월미테마파크 놀이시설</dt>
+                                        <dd>월미테마파크의 115M높이 대관람차와 바이킹 등 다양한 놀이기구도 만나고 타가다디스코에서 레크레이션 프로그램도 즐겨보세요.</dd>
+                                       
+                                    </dl>
+                                    <ul class="pro_imgbox">
+                                        <li><img src="./images/sub4_1_img19.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img20.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img21.jpg" alt=""></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt class="pro_p">특별이벤트</dt>
+                                        <dd>희망메세지 풍선 날리기, 불꽃놀이 등 특별 이벤트를 만나보실 수 있습니다.</dd>
+                                       
+                                    </dl>
+                                    <ul class="pro_imgbox">
+                                        <li><img src="./images/sub4_1_img22.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img23.jpg" alt=""></li>
+                                        <li><img src="./images/sub4_1_img24.jpg" alt=""></li>
+                                    </ul>
+                                </li>
+                                
+                                <li>
+                                    <div class="gpro">
+                                        <p>단체관람 전 문의주시면 담당 코디네이터가 <strong>고객님의 요구에 맞게</strong> 단체이용 추천코스를 설계해 드립니다. 
+                                            단체관람 예약 시 할인가를 적용해 드리며, 소인 15명당 성인보호자1명 무료입장 입니다.</p>
+                                        <p><strong>단체담당자</strong> : 윤대완 과장</p>
+                                        <p><strong>전화번호</strong> : 032-761-0997 / 010-4568-5118</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+    
+                </div>        
+            
+               
+            </div>
+                
+            
+        </article>
+
+
+        <footer id="footerArea">
+            <a class="topMove" href="#">top</a>
+            <div class="footer_menu">
+                <ul>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                </ul>
+            </div>
+            <div class="footer_family">
+                <a class="arrow" href="#">family site <span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="aList">
+                        <li><a href="http://www.my-land.kr/" title="마이랜드가 새창에서 열립니다" target="_blank">마이랜드</a></li>
+                        <li><a href="http://www.dngcompany.co.kr/" title="디앤지컴퍼니가 새창에서 열립니다" target="_blank">디앤니컴퍼니</a></li>
+                    </ul>
+            </div>
+            <div class="footer_sns">
+                <ul>
+                    <li><a href="#"><span class="hidden">페이스북</span><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><span class="hidden">트위터</span><i class="fab fa-twitter"></i></a></li>
+                    <li class="last"><a href="#"><span class="hidden">유튜브</span><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <address>인천광역시중구 월미문화로 81 대표 김기순 사업자등록번호 121-18-88496<br>안내전화 032-761-0997 개인정보관리책임자 김지윤 운영자이메일 wolmi_co@naver.com</address>
+            <p>copyright &copy; wolmithemepark.allrightsreserved</p>
+            <a class="pc" href="#">PC 버전으로 보기</a>
+        </footer>
+    
+    </div>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+
+ <script src="js/nav.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* 서브공통 */
+.visual{position: relative; margin-top: 53px; height: 150px; width: 100%; background: url(../images/sub2_visualx2.jpg) no-repeat center; background-size: cover;}
+.visual h3{font-size: 1.4em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #fff; position: absolute; left: 50%; top: 50%; margin-left: -35px; margin-top: -13px;}
+.visual::before{content: ''; display: block; width: 100%; height: 20px; background: #fff; border-top-left-radius: 20px; border-top-right-radius: 20px; position: absolute; bottom: 0;}
+
+#content{}
+#content h2{font-size: 1.8em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; position: relative; margin-top: 30px;}
+#content h2::after{content: ''; display: block; background: #f93; width: 60px; height: 3px; position: absolute; left: 50%; top: 33px; margin-left: -30px;}
+
+/* 콘텐츠 */
+#content{margin: 0 5%; width: 90%;}
+#content h3{font-size: 1.35em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; margin: 50px 0 30px;}
+
+#content div{margin-bottom: 80px;}
+
+#content table{margin-bottom: 30px;}
+#content table th, table td{border: 1px solid #ccc; text-align: center; padding: 5px;}
+#content table th{background: #09c; color: #fff;}
+#content thead th:nth-child(1){width: 40%;}
+#content thead th:nth-child(2){width: 20%;}
+#content thead th:nth-child(3){width: 20%; border-right: 0;}
+#content tr th{border-left: 0;}
+#content tbody td:nth-child(3){border-right: 0;}
+
+#content dl{}
+#content dt{font-size: 1.15em; font-weight: bold; margin-bottom: 10px;}
+#content dd{line-height: 1.5em; margin-bottom: 10px; text-align: justify;}
+#content p{font-family: 'Nanum Myeongjo', serif; font-weight: 700; color: #f00; text-align: justify;}
+
+

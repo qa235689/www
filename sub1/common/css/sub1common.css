@@ -1,0 +1,19 @@
+/* sub1 공통 영역 */
+.visual{margin-top: 207px; position: relative; width: 2000px; left: 50%; margin-left: -1000px;}
+.sub_menu{width: 1200px; position: absolute; left: 50%; margin-left: -600px;}
+.sub_menu h3{position: absolute; left: 50%; margin-left: -97px; top: -240px; font-size: 3em; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; color: #fff;}
+.sub_menu ul{overflow: hidden; width: 400px; position: absolute; left: 50%; margin-left: -200px; top: -69px;}
+.sub_menu li{float: left;}
+.sub_menu li a{display: block; width: 200px; font-size: 1.125em; padding: 24px 0; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #fff; transition: all .5s;}
+.sub_menu .current a{background: #fff; color: #333;}
+.sub_menu li a:hover{background: #fff; color: #333;}
+
+.sub_menu .backbox{background: #000; width: 400px; height: 69px; opacity: .2; position: absolute; left: 400px; top: -69px;}
+
+
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; overflow: hidden;}
+#content .line_map{position: absolute; right: 14px; top: 14px; font-size: .875em; color: #666;}
+#content h2{font-size: 3.75em; font-family: 'Nanum Gothic', sans-serif; text-align: center; margin: 150px 0;}
+#content h2::after{content: ''; display: block; background: #f93; width: 200px; height: 5px; position: absolute; left: 500px; top: 230px;}

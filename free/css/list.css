@@ -1,0 +1,40 @@
+
+p,.list_search ul li.last input,.scale_count select,.list_tit,.page_button li a,.list_num,.list_tit,.page_num{font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
+form{padding: 50px 0 10px; border-radius: 10px; background: #efefef; margin-bottom: 50px;}
+.list_search{width: 1200px;}
+.list_search ul{overflow: hidden; text-align: center; width: 775px; margin: 0 auto;}
+.list_search ul li{float: left; margin-right: 50px;}
+.list_search ul li input{}
+.list_search ul li:nth-of-type(2) input{width: 500px; height: 30px; border: 1px solid #ccc; border-radius: 5px; outline: none;}
+.list_search ul li.last input{background:#09c; color: #fff; border-radius: 5px; border: none; padding: 5px 15px; 
+     font-size: 1.2em;}
+.list_search ul li.last{margin-right: 0;}
+.list_search ul li select{width: 100px; height: 36px; outline: none; font-size: 1.2em; border: 1px solid #999; border-radius: 5px; padding-left: 20px;}
+.list_search p{font-size: 1.3em; text-align: center; padding: 20px 0 50px;}
+
+.scale_count select{outline: none; font-size: 1em; text-align: center; padding: 0 10px; background: none; border: 1px solid #999; border-radius: 5px; margin-bottom: 20px;}
+
+.list_item{width: 1200px;  overflow: hidden;}
+.list_item li{float: left; padding: 20px 0; text-align: center;}
+.list_item li a{display: block;padding: 0; text-align: left;}
+.list_item li a span{padding-top: 25px;}
+
+.list_item li.list_num{width: 80px; margin-top: 32px; font-size: 1.2em;}
+.list_item li.list_img{ margin-top: 0;}
+.list_item li.list_img a{}
+.list_item li.list_img a img{width: 100px; border-radius: 10px; width: 100px; height: 100px;}
+
+.list_item li.list_tit a{display: block; width: 780px; font-size: 1.2em; padding: 37px 20px;}
+.list_text1,.list_text2,.list_text3{margin-top: 42px;}
+.list_item li.list_text1{width: 60px;}
+.list_item li.list_text2{width: 90px;}
+.list_item li.list_text3{width: 50px;}
+.list_item {border-top: 1px solid #ccc;}
+.list_item a span{color: red;}
+
+.page_button{overflow: hidden; border-top: 1px solid #ccc; padding: 20px 0; margin-bottom: 150px;}
+.page_button li{float: left; text-align: center; font-size: 1.2em;}
+.page_button li.page_num{margin: 10px 392px 0; }
+.page_button li.button a{display: block; float: left; width: 95px; padding: 10px 0; margin-right: 10px; background: #09c; color: #fff; border-radius: 5px;}
+.page_button li.button a:nth-child(2){margin-right: 0; background: #666;}
+

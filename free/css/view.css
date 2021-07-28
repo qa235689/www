@@ -1,0 +1,32 @@
+.view_button{}
+.view_title{overflow: hidden; background: #efefef; padding: 15px 0; border-top: 3px solid #666; border-bottom: 1px solid #ccc;}
+.view_title li{float: left;}
+.view_title li.view_title1{font-weight: bold; font-size: 1.15em; width: 860px; padding: 0 20px;}
+.view_content{font-size: 1em; padding: 50px 15px; border-bottom: 3px solid #666;}
+
+.view_button{overflow: hidden; margin: 30px 0 150px; overflow: hidden;}
+.first{float: left;}
+.view_button ul{float: right;}
+.view_button li{float: right;}
+.view_button li a,.view_button .first a{display: block; width: 100px; background: #09c; color: #fff; font-family: 'Nanum Gothic', sans-serif; font-weight: 700;
+    border-radius: 5px; text-align: center; margin-left: 20px; padding: 10px 0;}
+.view_button li.modi a{background: #f93;}
+.view_button li.del a{background: #999;}
+.view_button .first a{margin-right: 740px; margin-left: 0; background: #666;}
+
+.textin{padding: 20px 0; border-bottom: 1px solid #ccc; margin-bottom: 10px;}
+.ripple_top{overflow: hidden; padding-bottom: 15px;}
+.ripple_top li{float: left; margin-right: 15px; padding-left: 20px;}
+.ripple_top li a{color: red;}
+.ripple_top li.ripple_nick{font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
+.ripple_text{text-align: 1.5em; padding-left: 20px;}
+
+.ripple_box{overflow: hidden; padding: 20px 0;}
+.ripple_box li{float: left;}
+.ripple_box li:nth-of-type(1){width: 85%; margin-right: 2%;}
+.ripple_box li:nth-of-type(2){width: 13%;}
+.ripple_box textarea{border: 1px solid #ccc; width: 100%; border-radius: 5px; outline: none;}
+.ripple_box li a{display: block; background: #999; color: #fff; border-radius: 5px;  padding: 30px 0;
+    font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center;}
+
+

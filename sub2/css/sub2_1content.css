@@ -1,0 +1,58 @@
+/* 테마파크소개 내용 영역 */
+
+
+
+#content .content_area{}
+
+#content h3{margin: 50px 0 50px; font-family: 'Nanum Gothic', sans-serif; font-size: 2.6em; text-align: center;}
+#content table{border-collapse: collapse; width: 1200px; height: 200px; margin-bottom: 40px;}
+#content table td, #content table th{border: 1px solid #ccc ; text-align: center;}
+.paybox1, .paybox2 , .paybox3 , .timebox1{margin-bottom: 200px;}
+.paybox1 p , .paybox2 p , .paybox3 p{font-family: 'Nanum Myeongjo', serif; font-weight: 700; color: #f00; margin-top: 20px;}
+
+#content th{color: #fff; background: #0099cc;}
+#content .paybox1 thead th:nth-child(1){width: 20%; height: 50px; border-left: none;}
+#content .paybox1 thead th:nth-child(2){width: 40%;}
+#content .paybox1 thead th:nth-child(3){width: 40%; border-right: none;}
+#content .paybox1 tbody th{border-left: none;}
+#content .paybox1 tbody td{border-right: none;}
+
+#content .paybox2 table{height: 1000px;}
+#content .paybox2 thead th:nth-child(1){width: 20%; height: 50px; border-left: none;}
+#content .paybox2 thead th:nth-child(2){width: 40%;}
+#content .paybox2 thead th:nth-child(3){width: 40%; border-right: none;}
+#content .paybox2 tbody th{border-left: none;}
+#content .paybox2 tbody td{border-right: none;}
+
+#content .paybox3 thead th:nth-child(1){width: 20%; height: 50px; border-left: none;}
+#content .paybox3 thead th:nth-child(2){width: 40%;}
+#content .paybox3 thead th:nth-child(3){width: 40%; border-right: none;}
+#content .paybox3 tbody th{border-left: none;}
+#content .paybox3 tbody td{border-right: none;}
+
+
+
+#content dt{font-size: 1.25em; font-weight: bold; text-align: left; margin-bottom: 10px;}
+#content dd{ text-align: left; line-height: 1.5em; margin-bottom: 10px;}
+
+#content .contime{margin-bottom: 150px;}
+
+#content .timebox1 thead th:nth-child(1){width: 20%; height: 50px;border-left: none;}
+#content .timebox1 thead th:nth-child(2){width: 40%;}
+#content .timebox1 thead th:nth-child(3){width: 40%;}
+#content .timebox1 tbody th{border-left: none;}
+#content .timebox1 tbody td{border-right: none;}
+
+#content .timebox2 thead th:nth-child(1){width: 20%; height: 50px; border-left: none;}
+#content .timebox2 thead th:nth-child(2){width: 40%;}
+#content .timebox2 thead th:nth-child(3){width: 40%; border-right: none;}
+#content .timebox2 tbody th{border-left: none;}
+#content .timebox2 tbody td{border-right: none;}
+
+
+
+
+
+
+
+

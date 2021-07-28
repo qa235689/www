@@ -1,0 +1,87 @@
+<div id="skipNav">
+            <a href="#content">본문 바로가기</a>
+            <a href="#gnb">글로벌 네비게이션 바로가기</a>
+        </div>
+
+        <header id="headerArea">
+            <div class="header_inner">
+                <div class="header_top">
+                    
+                    <h1 class="logo">
+                        <a href="../index.html">월미테마파크</a>
+                    </h1>
+                    <div class="top_menu">
+                        <ul>
+                        <?
+                        if(!$userid) //세션변수가 등록되지 않았다면
+                        {
+                        ?>
+                            <li><a href="../login/login_form.php">로그인</a></li>
+                            <li class="last"><a href="../member/member_check.html">회원가입</a></li>
+                        <?
+                        }
+                        else //세션변수가 등록되어 있다면
+                        {
+                        ?>
+                            <li><?=$usernick?>님 환영합니다</li>
+                            <li><a href="../login/logout.php">로그아웃</a></li>
+                            <li class="last"><a href="../member/member_form_modify.php">정보수정</a></li>
+                        <?
+                        }
+                        ?>
+                        </ul>
+                    </div>
+                </div>
+                <nav id="gnb">
+                    <h2 class="hidden">글로벌네비게이션영역</h2>
+                    <ul class="dropdownmenu">
+                        <li class="m1 menu">
+                          <h3><a class="depth1" href="../sub1/sub1_1.html">테마파크</a></h3>
+                          <ul>
+                              <li><a href="../sub1/sub1_1.html">테마파크소개</a></li>
+                              <li><a href="../sub1/sub1_2.html">색다른특별함</a></li>
+                          </ul>
+                      </li>
+                      <li class="m2 menu">
+                          <h3><a class="depth1" href="../sub2/sub2_1.html">이용안내</a></h3>
+                          <ul>
+                              <li><a href="../sub2/sub2_1.html">이용요금및시간</a></li>
+                              <li><a href="../sub2/sub2_2.html">오시는길</a></li>
+                              <li><a href="../sub2/sub2_3.html">혜택안내</a></li>
+                          </ul>
+                      </li>
+                      <li class="m3 menu">
+                          <h3><a class="depth1" href="../sub3/sub3_1.html">즐길거리</a></h3>
+                          <ul>
+                              <li><a href="../sub3/sub3_1.html">어트렉션</a></li>
+                              <li><a href="../sub3/sub3_2.html">게임/편의시설</a></li>
+                              <li><a href="../sub3/sub3_3.html">주변시설</a></li>
+                          </ul>
+                      </li>
+                      <li class="m4 menu">
+                          <h3><a class="depth1" href="../sub4/sub4_1.html">단체안내</a></h3>
+                          <ul>
+                              <li><a href="../sub4/sub4_1.html">단체이용문의</a></li>
+                              <li><a href="../sub4/sub4_2.html">단체가이드</a></li>
+                              <li><a href="../sub4/sub4_3.html">단체리플렛</a></li>
+                          </ul>
+                      </li>
+                      <li class="m5 menu">
+                          <h3><a class="depth1" href="../concert/list.php">이벤트</a></h3>
+                          <ul>
+                            <li><a href="../concert/list.php">이벤트안내</a></li>
+                            <li><a href="../free/list.php">당첨자발표</a></li>
+                          </ul>
+                      </li>
+                      <li class="m6 menu">
+                          <h3><a class="depth1" href="../greet/list.php">고객센터</a></h3>
+                          <ul>
+                              <li><a href="../greet/list.php">공지사항</a></li>
+                              <li><a href="../sub6/sub6_2.html">FAQ</a></li>
+                          </ul>
+                         </li>
+                    </ul>
+                </nav>
+            </div>
+    
+        </header>

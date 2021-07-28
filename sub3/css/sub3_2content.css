@@ -1,0 +1,49 @@
+/* 테마파크소개 내용 영역 */
+
+
+
+
+#content h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.6em; text-align: center; margin-bottom: 90px; position: relative;}
+#content h3::before{content: ''; display: block; width: 500px; height: 1px; background: #ccc; position: absolute; left: 0; top: 25px;}
+#content h3::after{content: ''; display: block; width: 500px; height: 1px; background: #ccc; position: absolute; right: 0; top: 25px;}
+
+
+#content ul{width: 1100px; overflow: hidden; padding-left: 100px;}
+#content li{width: 500px; float: left; position: relative; margin-right: 100px; margin-bottom: 200px;}
+
+#content li::before{content: ''; display: block; width: 500px; height: 500px; border: 1px solid #ccc; border-radius: 20px; position: absolute; left: -50px; top: 38px; z-index: -20;}
+#content .arcade li:nth-of-type(1)::after{content: ''; display: block; width: 254px; height: 80px; background: #fff; position: absolute; left: -25px; top: 0px; z-index: -10;}
+#content .arcade li:nth-of-type(2)::after{content: ''; display: block; width: 200px; height: 80px; background: #fff; position: absolute; left: -25px; top: 0px; z-index: -10;}
+#content .arcade li:nth-of-type(3)::after{content: ''; display: block; width: 200px; height: 80px; background: #fff; position: absolute; left: -25px; top: 0px; z-index: -10;}
+#content .arcade li:nth-of-type(4)::after{content: ''; display: block; width: 330px; height: 80px; background: #fff; position: absolute; left: -25px; top: 0px; z-index: -10;}
+#content .amenities ul li:nth-of-type(1)::after{content: ''; display: block; width: 309px; height: 80px; background: #fff; position: absolute; left: -25px; top: 0px; z-index: -10;}
+#content .amenities ul li:nth-of-type(2)::after{content: ''; display: block; width: 307px; height: 80px; background: #fff; position: absolute; left: -25px; top: 0px; z-index: -10;}
+#content .amenities ul li:nth-of-type(3)::after{content: ''; display: block; width: 312px; height: 80px; background: #fff; position: absolute; left: -25px; top: 0px; z-index: -10;}
+#content .amenities ul li:nth-of-type(4)::after{content: ''; display: block; width: 242px; height: 80px; background: #fff; position: absolute; left: -25px; top: 0px; z-index: -10;}
+#content .amenities ul li:nth-of-type(5)::after{content: ''; display: block; width: 200px; height: 80px; background: #fff; position: absolute; left: -25px; top: 0px; z-index: -10;}
+#content .amenities ul li:nth-of-type(6)::after{content: ''; display: block; width: 254px; height: 80px; background: #fff; position: absolute; left: -25px; top: 0px; z-index: -10;}
+
+#content .last{margin-bottom: 150px;}
+#content li:nth-of-type(even){margin-right: 0;}
+#content li img{border-radius: 20px; margin: 90px 0 60px;}
+#content dl{} 
+#content dt{font-family: 'Nanum Gothic', sans-serif; font-size: 1.7em; font-weight: 700; padding: 20px 0 20px 68px; 
+    text-transform: uppercase; position: absolute; left: 0; top: 0;}
+    
+#content dd{font-size: 1.125em; line-height: 2em;}
+#content dd span{color: #993;}
+#content .arcade ul li:nth-of-type(1) dt{background: url(../images/content2/icon_03.jpg) no-repeat left center;}
+#content .arcade ul li:nth-of-type(2) dt{background: url(../images/content2/icon_05.jpg) no-repeat left center;}
+#content .arcade ul li:nth-of-type(3) dt{background: url(../images/content2/icon_15.jpg) no-repeat left center;}
+#content .arcade ul li:nth-of-type(4) dt{background: url(../images/content2/icon_17.jpg) no-repeat left center; font-family: 'Roboto', sans-serif;}
+
+#content .amenities ul li:nth-of-type(1) dt{background: url(../images/content2/icon_25.jpg) no-repeat left center;}
+#content .amenities ul li:nth-of-type(2) dt{background: url(../images/content2/icon_27.jpg) no-repeat left center;}
+#content .amenities ul li:nth-of-type(3) dt{background: url(../images/content2/icon_35.jpg) no-repeat left center; font-family: 'Roboto', sans-serif;}
+#content .amenities ul li:nth-of-type(4) dt{background: url(../images/content2/icon_37.jpg) no-repeat left center; font-family: 'Roboto', sans-serif;}
+#content .amenities ul li:nth-of-type(5) dt{background: url(../images/content2/icon_45.jpg) no-repeat left center;}
+#content .amenities ul li:nth-of-type(6) dt{background: url(../images/content2/icon_47.jpg) no-repeat left center; font-family: 'Roboto', sans-serif;}
+
+
+
+

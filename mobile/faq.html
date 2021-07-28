@@ -1,0 +1,360 @@
+<? 
+session_start();
+@extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>월미테마파크_FAQ</title>
+
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
+    <script src="js/prefixfree.min.js"></script>
+    
+    <script>
+    // <![CDATA[
+    try {
+    window.addEventListener('load', function(){
+        setTimeout(scrollTo, 0, 0, 1); 
+    }, false);
+    } 
+    catch(e) {}
+    // ]]>
+    </script>
+
+    
+    <!--[if lt IE 9]> 
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    </head>
+
+<body>
+    <div id="skipNav">
+        <a href="#content">본문바로가기</a>
+        <a href="#gnb">네비게이션바로가기</a>
+    </div>
+    
+    
+    <div id="wrap">
+        
+        <header id="headerArea">
+            <div class="box"></div>
+            <div class="header_top">
+                <h1 class="logo"><a href="index.html">월미테마파크</a></h1>
+                <a href="#" class="menu_ham">
+                    <span>메뉴열기</span>
+                </a>
+            </div>
+            
+            <nav id="gnb">
+            <h2 class="hidden">글로벌네비게이션영역</h2>
+            <dl>
+                <dt>WOLMI THEME PARK</dt>
+                <dd>월 미 테 마 파 크</dd>
+            </dl>
+                <ul class="mainmenu">
+                    <li class="depth1">
+                        <h3><a class="depth1_a" href="#">테마파크</a></h3>
+                        <ul>
+                            <li><a href="./sub1_1.html">테마파크소개</a></li>
+                            <li><a href="./sub1_2.html">색다른특별함</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3><a class="depth1_a" href="#">이용안내</a></h3>
+                        <ul>
+                            <li><a href="./sub2_1.html">이용요금및시간</a></li>
+                            <li><a href="./sub2_2.html">오시는길</a></li>
+                            <li><a href="./sub2_3.html">혜택안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3><a class="depth1_a" href="#">즐길거리</a></h3>
+                        <ul>
+                            <li><a href="./sub3_1.html">어트렉션</a></li>
+                            <li><a href="./sub3_2.html">게임/편의시설</a></li>
+                            <li><a href="./sub3_3.html">주변시설</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1 last">
+                        <h3><a class="depth1_a" href="#">단체안내</a></h3>
+                        <ul>
+                            <li><a href="./sub4_1.html">단체가이드</a></li>
+                            <li><a href="./sub4_2.html">단체리플렛</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav_bottom">
+                    <?
+                    if(!$userid) //세션변수가 등록되지 않았다면
+                    {
+                    ?>
+                    <li><a href="./member/member_check.html">회원가입</a></li>
+                    <li><a href="./login/login_form.php">로그인</a></li>
+                    <?
+                    }
+                    else //세션변수가 등록되어 있다면
+                    {
+                    ?>
+                    <li><a href="./member/member_form_modify.php">정보수정</a></li>
+                    <li><a href="./login/logout.php">로그아웃</a></li>
+                    <?
+                    }
+                    ?>
+                    <li><a href="./faq.html">FAQ</a></li>
+                </ul>
+                <a class="mclose" href="#"><span class="hidden">메뉴닫기</span><i class="fas fa-times"></i></a>
+            </nav>
+            
+        </header>
+        <div class="visual">
+            
+        </div>
+        <article id="content">
+            <h2>faq</h2>
+            <div class="content_area">
+                <a class="all" href="#">모두열기▼</a>
+                <ul>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> [차피패밀리파크] VIP초대권으로 차피패밀리파크를 이용할 수 있나요? <span></span></a>
+                            
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            VIP초대권은 월미테마파크 모든 놀이기구 시설만 이용하실 수 있는 티켓이므로 
+                            차피패밀리파크를 이용하실 수 없습니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q"><a class="trigger" href="#">
+                            <strong>Q</strong> [차피패밀리파크] 혼자 입장 가능한 연령대가 어떻게 되나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            7세미만 어린이들은 안전한 시설이용을 위하여 보호자 동반입장이 필수입니다. 
+                            보호자와 함께 이용가능한 놀이시설과 휴게시설이 다양하게 마련되어있어 
+                            온가족이 다함께 즐거운시간을 보내실 수 있습니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> [차피패밀리파크] 화장실은 어디로 이용해야 하나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            차피패밀리파크월미점 수유실 옆쪽으로 깨끗하고 쾌적한 화장실이 마련되어있어 
+                            더욱 편하게 차피패밀리파크를 이용하실 수 있습니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> [차피패밀리파크] 음식물은 가지고 들어갈 수 있나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            외부 음식물들은 이용객분들의 쾌적한 환경조성을 위해 반입을 금지하고 있습니다. 
+                            간단한 음료와 간식은 차피패밀리파크내의 차피카페를 이용해 주시고, 
+                            1층 롯데리아 음식은 반입이 가능하오니 식사를 원하시는 분들은 참고해주시기 바랍니다. 
+                            (이유식, 환자식은 반입가능)</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> [차피패밀리파크] 카트 레이싱존 운영시간은 어떻게 되나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            10:00 ~ 12:00 - 카트 운행시간<br>
+                            12:00 ~ 12:20 - 카트 점검시간<br>
+                            12:20 ~ 14:00 - 카트 운행시간<br>
+                            14:00 ~ 14:20 - 카트 점검시간<br>
+                            14:20 ~ 16:00 - 카트 운행시간<br>
+                            16:00 ~ 16:20 - 카트 점검시간<br>
+                            16:20 ~ 18:00 - 카트 운행시간<br>
+                            18:00 ~ 18:20 - 카트 점검시간<br>
+                            18:20 ~ 20:00 - 카트 운행시간<br>
+                            <br>
+                            운행시간, 점검시간을 참고하시고 즐거운 레이싱 이용 되시기 바랍니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> [차피패밀리파크] 동물로봇인형공연의 공연시간은 어떻게 되나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            차피패밀리파크 월미점에있는 동물인형로봇공연의 공연시간은 
+                            주말, 공휴일엔 매시 정각에 시작하며 
+                            평일에는 효율적인 공연관람을 위해 관람신청시 시작하고 있습니다. 
+                            <br>
+                            시간을 확인하시고 즐거운 공연 관람하시기 바랍니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> [차피패밀리파크] 카트1회권과 무제한권은 무엇이 다른가요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            카트 1회권의 경우 차피패밀리파크 2시간 이용시간중 
+                            카트레이싱존 이용을 1회 하실 수 있는 이용권이고, 
+                            카트 무제한권은 카트레이싱존을 무제한으로 이용하실 수 있는 입장권입니다. 
+                            이점 참고하시고 가장 효율적인 입장권을 구매하시기 바랍니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> 온라인 할인쿠폰으로 중복할인을 받을 수 있나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            할인받은 요금에서 더 할인되는 중복할인방법은 적용되지 않습니다. 
+                            소지하고 계신 할인권과 온라인쿠폰을 확인하시어 
+                            보다 저렴한 수단을 선택하시기 바랍니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> VIP초대권은 어떻게 사용하는 건가요?<span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            VIP초대권의 경우 
+                            물공놀이, 차피패밀리파크 월미점 이용을 제외한 
+                            테마파크 전 놀이시설의 이용이 가능하며, 티켓 1장당 1종의 무료이용이 가능합니다. 
+                            <br>
+                            티켓은 매표소로 가지고 가지 마시고 각 놀이기종의 직원에게 
+                            직접 제시하면 바로 이용하실 수 있습니다. 
+                            (VIP 초대권은 타인에게 매매 및 양도가 불가합니다.)</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> 자유이용권과 선택할인권 무엇이 다른가요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            자유이용권은 테마파크 전 놀이시설 및 차피패밀리파크 월미점 까지 이용이 가능합니다. 
+                            선택할인권은 성인의 경우 테마파크 전 놀이시설 중 3기종을 선택하여 이용가능하고 
+                            소인의 경우 테마파크 전 놀이시설 중 4기종을 선택하여 이용가능 합니다. 
+                            (선택할인권은 본인1인만 사용이 가능하며 차피패밀리파크 월미점과 물공놀이 이용은 불가합니다.)</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> 유모차보관소와 물품보관함이 마련되어 있나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            2층 차피패밀리파크 월미점에 유모차 보관소가 마련되어 있으며 
+                            개인 물품은 테마파크 내 물풀보관함에서 보관이 가능합니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> 4세 이하 영유아의 이용시설이 있나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            보호자와 함께 탑승 시 이용 가능한 어린이용 놀이기구들과 
+                            2층 차피패밀리파크 월미점에 영유아들을 위한 미국 직수입 COMPY랜드와 
+                            유아용 놀이기구들이 한가득 준비되어 있어 
+                            4세 이하 영유아들도 안전하고 재미있게 이용하실 수 있습니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> 애완동물을 데리고 입장할 수 있나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            월미테마파크 내에서는 애완동물의 입장이 불가능합니다. 
+                            별도의 애완동물 보호소가 마련되어 있지 않으며, 다른 고객님들의 불쾌감이나 
+                            위협감이 들지 않도록 애완동물 관리에 유념하여 주시기 바랍니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> 월미테마파크 영업시간은 어떻게 되나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            월미테마파크의 영업시간은 
+                            평일 : 10:00~22:00 
+                            주말/공휴일 : 10:00~24:00으로 운영되고 있으며 
+                            비·성수기 기간과 기상 사정에 따라 폐장시간이 변경될 수 있으니 
+                            방문 전에 확인해 주시기 바랍니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> 비, 눈오는 날에도 놀이기구를 운영하나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            월미테마파크는 우천시에도 이용이 가능합니다. 
+                            <br>
+                            2500평 규모의 놀이교육체험관 차피패밀리파크 월미점과 
+                            20여가지 실내 어린이 놀이기구, 실내게임존 등 
+                            다양한 시설을 이용하실 수 있습니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> 월미테마파크 휴관일은 언제인가요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            월미테마파크는 고객님들의 편의를 위해 
+                            365일, 연중무휴로 운영됩니다. 
+                            <br>
+                            단, 비수기 기간과 기상 사정에 따라 폐장시간이 변경될 수 있으니 
+                            방문 전에 확인해 주시기 바랍니다.</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> 테마파크 주차장 이용은 어떻게 하나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            월미공원 정문에서 좌회전 하여 3~4분정도 직진 해 오시면 
+                            이민사박물관에 대형공영주차장이 있으며 무료로 주차가능 합니다. 
+                            (주차 후 월미테마파크 도보 5분거리)</p>
+                    </li>
+                    <li class="article hide">
+                        <p class="q">
+                            <a class="trigger" href="#"><strong>Q</strong> 월미도에서 테마파크를 어떻게 찾아가나요? <span></span></a>
+                        </p>
+                        <p class="a"><strong>A</strong><br>
+                            승용차로 오실 경우 월미공원 정문에서 좌회전하여 3~4분정도 직진하면 
+                            인천해사고등학교와 이민사박물관이 보이고 좌측에 관람차와 월미테마파크 후문이 보입니다. 
+                            (주차하실 경우 이민사박물관 무료주차장 이용) 
+                            <br>
+                            대중교통을 이용하실 경우 1호선 인천역 앞 버스정류장에서 45번을 탑승하시면 
+                            월미테마파크역 에서 하차 가능합니다. (인천역에서 7~8분 소요)</p>
+                    </li>
+                </ul>
+               
+            </div>
+                
+            
+        </article>
+
+
+        <footer id="footerArea">
+            <a class="topMove" href="#">top</a>
+            <div class="footer_menu">
+                <ul>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                </ul>
+            </div>
+            <div class="footer_family">
+                <a class="arrow" href="#">family site <span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="aList">
+                        <li><a href="http://www.my-land.kr/" title="마이랜드가 새창에서 열립니다" target="_blank">마이랜드</a></li>
+                        <li><a href="http://www.dngcompany.co.kr/" title="디앤지컴퍼니가 새창에서 열립니다" target="_blank">디앤니컴퍼니</a></li>
+                    </ul>
+            </div>
+            <div class="footer_sns">
+                <ul>
+                    <li><a href="#"><span class="hidden">페이스북</span><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><span class="hidden">트위터</span><i class="fab fa-twitter"></i></a></li>
+                    <li class="last"><a href="#"><span class="hidden">유튜브</span><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <address>인천광역시중구 월미문화로 81 대표 김기순 사업자등록번호 121-18-88496<br>안내전화 032-761-0997 개인정보관리책임자 김지윤 운영자이메일 wolmi_co@naver.com</address>
+            <p>copyright &copy; wolmithemepark.allrightsreserved</p>
+            <a class="pc" href="#">PC 버전으로 보기</a>
+        </footer>
+    
+    </div>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+
+ <script src="js/nav.js"></script>
+ <script src="js/faq.js"></script>
+
+</body>
+</html>

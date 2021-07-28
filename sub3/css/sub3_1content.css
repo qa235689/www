@@ -1,0 +1,93 @@
+/* 테마파크소개 내용 영역 */
+
+
+#content .mini_menu {width:100%; text-align: center; margin-bottom: 80px;}
+#content .mini_menu ul{overflow: hidden; padding-bottom: 20px; position: relative;}
+#content .mini_menu ul::after{content: ''; display: block; width: 1200px; height: 1px; background: #ccc; position: absolute; left: 0; top: 33px;}
+#content .mini_menu li{float: left; text-align: center; width: 33%;}
+#content .mini_menu li a{display: block; color: #999; font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; text-align: center; position: relative; transition: all .8s}
+#content .mini_menu li a:hover{color: #f93;}
+
+#content .mini_menu a::after{content: ''; display: block; width: 7px; height: 7px; background: #ccc; border-radius: 50%; position: absolute; left: 50%; top: 30px; z-index: 10;}
+ 
+/* 상단에 고정 sticky menu */ 
+.navon{position: fixed; width: 100%; z-index:60; left: 0; top: 0;background: #09c;}
+#content .navon ul{padding-bottom: 0;}
+#content .navon li{width: 33.33%;}
+#content .navon li a{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.5em; text-align: center; color: #fff; padding: 20px 0;}
+#content .navon li a:hover{color: #fff;}
+#content .navon ul::after{content: ''; display: none;}
+#content .navon li a::after{content: ''; display: none;}
+        
+.content_area div{position: relative; right:-1000px; top:0; opacity: 0; transition: all 2s}
+#content div.boxMove{right:0; opacity: 1}
+
+/* 메뉴 활성화  scroll spy */
+#content .navon ul li .spy{color: #09c; background: #fff;}
+
+
+#content .content_area{}
+#content h3{font-family: 'Nanum Gothic', sans-serif; text-align: center; font-size: 2.6em; padding-bottom: 400px;}
+#content .att01 h3{background: url(../images/content1/backicon01.png) no-repeat center 160px;}
+#content .att02 h3{background: url(../images/content1/backicon02.png) no-repeat center 160px;}
+#content .att03 h3{background: url(../images/content1/backicon03.png) no-repeat center 160px;}
+
+#content .slide_con{width: 1200px; margin-bottom: 400px;}
+#content .slide_con ul{overflow: hidden; margin-bottom: 60px;}
+#content .slide_con li{float: left; position: relative; margin-left: 50px; border: 1px solid #09c; border-radius: 10px; background: #fff; transition: all .5s ease-out;}
+#content .slide_con li:nth-of-type(1){margin-left: 30px;}
+#content .slide_con li:hover{background: #09c;}
+#content .att02 li:hover{background: #f93;}
+#content .att03 li:hover{background: #993;}
+#content .att02 li{border: 1px solid #f93;}
+#content .att03 li{border: 1px solid #993;}
+#content .slide_con img{border-radius: 50%; margin: 50px 50px 120px; border: 1px solid #09c; transition: all .5s ease-out;}
+#content .att02 img{border: 1px solid #f93;}
+#content .att03 img{border: 1px solid #993;}
+#content .slide_con li:hover img{border: 1px solid #fff;}
+#content .slide_con a{width: 340px; height: 412px; position: absolute; left: 0; top: 0;}
+#content .slide_con p{font-family: 'Nanum Myeongjo', serif; font-weight: 700; text-align: center; font-size: 1.875em; color: #09c; margin-top: 340px; }
+#content .slide_con li:hover p{color: #fff;}
+#content .att02 p{color: #f93;}
+#content .att03 p{color: #993;}
+
+
+/* #content .att02{width: 1200px; margin-bottom: 400px;}
+#content .att02 ul{overflow: hidden; margin-bottom: 60px;}
+#content .att02 li{float: left; position: relative; margin-left: 50px; border: 1px solid #f93; border-radius: 10px;}
+#content .att02 img{border-radius: 50%; margin: 50px 50px 120px;}
+#content .att02 a{width: 340px; height: 412px; position: absolute; left: 0; top: 0;}
+#content .att02 p{font-family: 'Nanum Myeongjo', serif; font-weight: 700; text-align: center; font-size: 1.875em; color: #f93; margin-top: 340px;}
+
+#content .att03{width: 1200px; margin-bottom: 150px;}
+#content .att03 ul{overflow: hidden; margin-bottom: 60px;}
+#content .att03 li{float: left; position: relative; margin-left: 50px; border: 1px solid #993; border-radius: 10px;}
+#content .att03 img{border-radius: 50%; margin: 50px 50px 120px;}
+#content .att03 a{width: 340px; height: 412px; position: absolute; left: 0; top: 0;}
+#content .att03 p{font-family: 'Nanum Myeongjo', serif; font-weight: 700; text-align: center; font-size: 1.875em; color: #993; margin-top: 340px;} */
+
+
+/* 팬시박스 */
+
+
+.dialog{padding: 50px; border: 5px solid #09c;}
+/* .log{padding: 50px;  border: 5px solid #09c;} */
+.vr{padding: 50px; border: 5px solid #f93;}
+.cha{padding: 50px; border: 5px solid #993;}
+
+
+.dialog img{margin: 25px 0;}
+.dialog p{font-size: 1.25em; line-height: 2em;}
+.dialog p:nth-of-type(2){font-family: 'Nanum Myeongjo', serif; font-weight: 700; color: #09c;}
+.vr p:nth-of-type(2){font-family: 'Nanum Myeongjo', serif; font-weight: 700; color: #f93;}
+.cha p:nth-of-type(2){font-family: 'Nanum Myeongjo', serif; font-weight: 700; color: #993;}
+
+.dialog .dialog_p{font-size: 2em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; padding-bottom: 25px;}
+
+.dialog .tip{font-size: 1em; font-weight: bold; padding-top: 50px; position: relative;}
+.dialog .tip::after{content: ''; display: block; width: 600px; height: 1px; border-bottom: 1px dotted #ccc; position: absolute; left: 0; top: 25px;}
+.dialog p:nth-of-type(5){font-size: 1em;}
+
+
+
+

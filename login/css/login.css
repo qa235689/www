@@ -1,0 +1,24 @@
+body{background: #efefef;}
+.wrap{background: #fff; border-radius: 20px; width: 700px; margin: 100px auto; padding: 50px 0;}
+
+.logo{display: block; width: 127px; height: 75px;
+    background: url(../../common/images/toplogo.jpg); text-indent: -999px; overflow: hidden; margin: 0 auto 40px;}
+
+form{text-align: center;}
+h2{font-family: 'Nanum Gothic', sans-serif; font-size: 2em; margin-bottom: 30px;}
+.login_input{border: none; background: #efefef; width: 500px; height: 50px; border-radius: 10px; margin-bottom: 30px;
+    font-size: 1.1em; text-align: center;}
+#id_pw_input ul li:nth-of-type(2){margin-bottom: 0;} 
+#login_button button{border: none; background: #09c; color: #fff; width: 500px; padding: 15px 0; border-radius: 10px;
+    font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.1em; cursor: pointer;}
+
+#join_button a{display: block; border:2px solid #09c;color: #09c; width: 500px; padding: 13px 0; margin: 25px auto; border-radius: 10px; box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.1em}
+#join_button a:nth-child(2){background: #666; color: #fff; border:none; padding: 15px 0;}
+
+.findbox {overflow: hidden; width: 500px; margin: 0 auto 30px;}
+.findbox li{float: left; font-family: 'Nanum Gothic', sans-serif; color: #666;}
+.findbox li:nth-of-type(1){}
+.findbox li:nth-of-type(2){float: right;}
+.findbox li:nth-of-type(2) span{margin-left: 10px;}
+.findbox li:nth-of-type(2) span a{color: #666;}

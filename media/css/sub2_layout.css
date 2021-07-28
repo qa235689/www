@@ -1,0 +1,97 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+	position:fixed;
+   left:50%;
+   top:50%; 
+   width:auto;
+   min-width:100%; 
+   height:auto;
+   min-height:100%; 
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+
+.down{display: block; text-align: center; line-height: 1.5em; font-size: 20px; position: absolute; 
+	 left:50%; margin-left: -30px; bottom: 8%;
+	animation:ani 1s infinite  alternate; animation-timing-function  : ease-in-out;}
+   
+@keyframes ani {
+   0%{transform: translateY(0);}
+   100%{transform: translateY(30px);}
+}	
+
+
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+.videoBox .mainlogo{position: absolute; left: 50%; margin-left: -450px; top: 50%; margin-top: -125px;}
+
+#headerArea #gnb ul li:nth-of-type(2) a{color: #006aff;}
+
+h2,.btn a,h3,dt{font-family: 'Orbitron', sans-serif;}
+
+
+
+#content .subtit{width: 100%; text-align: center; position: absolute; left: 0; top: 50%; margin-top: -80px; text-shadow:#267dfa 0 0 20px;
+   text-align: center; font-weight: 700; font-size: 8em;}
+
+
+#content .racescon{width: 1600px; margin: 0 auto 100px;}
+#content .racescon h3{text-align: center; padding: 120px 0 20px; font-size: 3em;}
+#content .racescon p{text-align: center; margin-bottom: 80px; font-size: 1.5em; line-height: 1.5em;}
+
+#content .racescon ul{overflow: hidden; width: 100%;}
+#content .racescon li{width: 50%; float: left;}
+#content .racescon li img{border-bottom: 2px solid #fff;}
+#content .racescon li dl{padding: 10px 0 10px;}
+#content .racescon li:hover dl{}
+#content .racescon li dl dt{font-size: 2em; font-weight: 700; padding-bottom: 10px;}
+#content .racescon li dl dd{font-size: 1.2em; line-height: 1.5em;}
+
+#content .racescon li.left img{float: left;}
+#content .racescon li.left dl{opacity: 0;  transition: all .5s ease-out;}
+#content .racescon li.left:hover dl{opacity: 1;}
+#content .racescon li.right img{float: right;}
+#content .racescon li.right dl{text-align: right; opacity: 0; transition: all .5s ease-out;}
+#content .racescon li.right:hover dl{opacity: 1;}
+
+
+
+
+@media screen and (max-width:1280px) {
+   #content .racescon{width: 1100px; margin: 0 auto 100px;}
+
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   #content .racescon{width: 90%; margin: 0 5%;}
+   #content .racescon h3, #content .racescon p{}
+   #content .racescon li.right dl{opacity: 1; transition: none;}
+   #content .racescon li.left dl{opacity: 1;  transition: none;}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content .subtit{font-size: 6em;}
+   #content{background: rgba(0, 0, 0, .7);}
+   #content .racescon li img{width: 100%;}
+
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   #content .subtit{font-size: 5em;}
+   #content .racescon h3{font-size: 2em;}
+   #content .racescon li dl dt{font-size: 1.5em;}
+   #content .racescon li dl dd{font-size: 1em; line-height: 1.5em;}
+}
+
+
+
+

@@ -1,0 +1,85 @@
+/* CSS Document */
+
+h3{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.214em; text-align: center; margin-bottom: 48px;}
+.main, .discount, .attraction, .movie, .enjoy{margin-bottom: 88px;}
+
+.main{margin-top: 52px;}
+.main .slides img{width: 100%;}
+.main .slides li{position: relative;}
+.main .slides li dl{background: rgba(0, 0, 0, .7); width: 100%; position: absolute; left: 0; top: 50%; margin-top: -64px; padding: 40px 0;}
+.main .slides li dt{color: #00c0ff; text-align: center; text-transform: uppercase; font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1.714em;}
+.main .slides li dd{color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.2em;}
+
+#content{}
+
+#content .discount{}
+#content .dis_disbox{}
+#content .dis_disbox ul{margin: 0 15px; overflow: hidden; }
+#content .dis_disbox li{float: left; text-align: center; width: 39%; margin: 0 5% 20px; border: 1px solid #ccc; border-radius: 20px;}
+#content .dis_disbox li:nth-child(4),.dis_disbox li:nth-child(2){margin-right: 0;}
+#content .dis_disbox li a{display: block; padding: 12px;}
+#content .dis_disbox li img{width: 100%;}
+#content .dis_disbox li p{font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
+#content .dis_disbox .more{display: block; clear: both; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #09c; padding-top: 40px;}
+
+#content .attraction{height: 400px; background: url(../images/backgruond_x2.jpg)center no-repeat; background-size: cover;}
+#content .attraction h3{padding: 25px 0 12px; margin: 0;}
+#content .attraction .slogan{text-align: center; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 26px;}
+
+#content .attraction a{display: block; clear: both; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; padding: 10px 0;}
+
+#content .attraction .swiper-slide img{position: relative; }
+#content .attraction .swiper-slide p{position: absolute; bottom: 30px; color: #fff; width: 160px; padding: 10px 0;
+    font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1em; background: rgba(0, 0, 0, 0.7);}
+
+.swiper-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .swiper-slide {
+    text-align: center;
+    width: 80%;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+#content .video-container iframe{border-radius: 30px; margin: 0 5%; margin-top: 3%;}
+
+/* 유튜브 영상 유동 처리 */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+
+#content .enjoy{width: 100%;}
+#content .enjoy ul{width: 80%; margin: 0 10%;}
+#content .enjoy li{float: left; width: 30.33%; text-align: center;  margin-right: 3%; margin-bottom: 45px;}
+#content .enjoy li:nth-child(3){margin-right: 0;}
+#content .enjoy li img{border: 1px solid #f93; border-radius: 20px; width: 90%; padding: 5%; margin-bottom: 12px;}
+#content .enjoy ul li p{font-family: 'Roboto', sans-serif; font-weight: 700; color: #333; text-transform: uppercase;}
+#content .enjoy a{display: block; clear: both; text-align: center; margin-bottom: 25px;}
+#content .enjoy p{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; color: #f93;}
+
+
