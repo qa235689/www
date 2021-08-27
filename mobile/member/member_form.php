@@ -214,45 +214,42 @@ $("#nick").keyup(function() {    // nick입력 상자에 nick값 입력시
                     </ul>
                 </li>
             </ul>
-            <ul>
-                <li class="form_row tel push_15_t">
-                    <ul>
-                        <li class="tit">
-                            <span>휴대폰 번호</span>
-                        </li>
-                        <li class="border-r-1">
-                             <label class="hidden" for="hp1">전화번호앞3자리</label>
-                    <select class="hp" name="hp1" id="hp1"> 
-                  <option value='010'>010</option>
-                  <option value='011'>011</option>
-                  <option value='016'>016</option>
-                  <option value='017'>017</option>
-                  <option value='018'>018</option>
-                  <option value='019'>019</option>
-                  </select> 
-                        </li>
-                        <li class="border-r-1">
-                            -<label class="hidden" for="hp2">전화번호중간4자리</label><input type="text" class="hp" name="hp2" id="hp2"  required>
-                        </li>
-                        <li>
-                            -<label class="hidden" for="hp3">전화번호끝4자리</label><input type="text" class="hp" name="hp3" id="hp3"  required>
-                        </li>
-                    </ul>
-                </li>
+            <ul class="form_row tel push_15_t">
+                    <li class="tit">
+                        <span>휴대폰 번호</span>
+                    </li>
+                    <li class="in_li">
+                       <ul>
+                            <li class="h1">
+                                <label class="hidden" for="hp1">전화번호앞3자리</label>
+                                <select class="hp" name="hp1" id="hp1"> 
+                                    <option value='010'>010</option>
+                                    <option value='011'>011</option>
+                                    <option value='016'>016</option>
+                                    <option value='017'>017</option>
+                                    <option value='018'>018</option>
+                                    <option value='019'>019</option>
+                                </select> 
+                            </li>
+                            <li class="h2">
+                                <label class="hidden" for="hp2">전화번호중간4자리</label><input type="text" class="hp" name="hp2" id="hp2"  required>
+                            </li>
+                            <li class="h3">
+                                <label class="hidden" for="hp3">전화번호끝4자리</label><input type="text" class="hp" name="hp3" id="hp3"  required>
+                            </li>
+                       </ul>
+                    </li>
             </ul>
-            <ul>
-                <li class="form_row email push_15_t">
-                    <ul>
-                        <li class="tit">
-                            <span>이메일</span>
-                        </li>
-                        <li>
-                          <label class="hidden" for="email1">이메일아이디</label>
-                    <input type="text" id="email1" name="email1"  required> <span>@ </span>
+            <ul class="form_row email push_15_t">
+                
+                <li class="tit">
+                    <span>이메일</span>
+                </li>
+                <li class="in_li">
+                    <label class="hidden" for="email1">이메일아이디</label>
+                    <input type="text" id="email1" name="email1"  required><span>@</span>
                     <label class="hidden" for="email2">이메일주소</label>
                     <input type="text" name="email2" id="email2"  required>
-                       </li>
-                    </ul>
                 </li>
             </ul>
             <ul class="button">
