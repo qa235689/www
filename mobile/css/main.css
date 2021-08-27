@@ -55,7 +55,7 @@ h3{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 1.214em
     align-items: center;
   }
 
-#content .video-container iframe{border-radius: 30px; margin: 0 5%; margin-top: 3%;}
+#content .video-container iframe{border-radius: 30px; margin: 0 5%; margin-top: 3%; border: 0;}
 
 /* 유튜브 영상 유동 처리 */
 .video-container {
